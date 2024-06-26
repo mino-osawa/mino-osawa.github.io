@@ -1,0 +1,15 @@
+body {
+    padding: 50px 100px;
+}
+
+ul li {
+    margin-bottom : 1em; 
+}
+
+ul li i {
+    font-weight : bold; 
+}
+
+#profile_pic {
+    width: 300px;
+}
