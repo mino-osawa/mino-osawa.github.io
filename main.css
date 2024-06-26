@@ -10,6 +10,15 @@ ul li i {
     font-weight : bold; 
 }
 
+hr {
+    margin : 2em 0em;
+}
+
 #profile_pic {
     width: 300px;
+}
+
+#mappin, #mail, #twitter {
+    width : .9em;
+    margin-right: .5em;
 }
