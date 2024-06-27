@@ -1,17 +1,20 @@
 body {
-    padding: 50px 100px;
+    font-family : "Open Sans", Verdana, sans-serif;
 }
-
 ul li {
     margin-bottom : 1em; 
 }
 
 ul li i {
-    font-weight : bold; 
+    font-weight : 600; 
 }
 
 hr {
     margin : 2em 0em;
+}
+
+h1, h2, h3 {
+    font-weight : 600; 
 }
 
 #profile_pic {
@@ -20,5 +23,11 @@ hr {
 
 #mappin, #mail, #twitter {
     width : .9em;
-    margin-right: .5em;
+    margin: 0em 1em;
+}
+
+@media (min-width: 600px) {
+    body {
+        padding: 50px 100px;
+    }
 }
