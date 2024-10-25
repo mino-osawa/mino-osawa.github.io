@@ -33,6 +33,11 @@ h2, h3 {
     color: #aaa;
 }
 
+a {
+    color: blue;
+    font-weight: 600;
+}
+
 @media (min-width: 600px) {
     body {
         padding: 10px 50px;
