@@ -5,10 +5,6 @@ ul li {
     margin-bottom : .8em; 
 }
 
-ul li i {
-    font-weight : 700; 
-}
-
 hr {
     margin : 2em 0em;
 }
@@ -21,12 +17,17 @@ h2, h3 {
     font-weight : 600; 
 }
 
-.antispam {
+.qawsedrftgyhujikolp {
     display : none;
 }
 
 #profile_pic {
     width: 300px;
+}
+
+/* journal name  */
+#publications li i {
+    font-weight : 700; 
 }
 
 .note {
