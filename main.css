@@ -44,7 +44,19 @@ a {
         padding: 10px 50px;
     }
 }
-
+#global_nav a {
+    display:inline-block; 
+    margin-right: 3px; 
+    padding: 5px; 
+    width:fit-content; 
+    min-width: 5em; 
+    text-align: center;
+    border: 1px solid gray; 
+    color: black;
+}
+#global_nav a.current {
+    background: #ffba92;
+}
 #eml::before, #loc::before, #twt::before {
     content: "";
     display: inline-block;
