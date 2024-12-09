@@ -28,6 +28,7 @@ h2, h3 {
 /* journal name  */
 #publications li i {
     font-weight: bold;
+    color:rgb(160, 100, 0);
 }
 
 .note {
