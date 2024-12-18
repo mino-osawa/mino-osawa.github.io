@@ -35,6 +35,15 @@ h2, h3 {
     color: #aaa;
 }
 
+.duration {
+    display:inline-block; 
+    min-width: 10em;
+}
+.affiliation {
+    display:inline-block; 
+    vertical-align: top;
+}
+
 a {
     color: blue;
     font-weight: 500;
