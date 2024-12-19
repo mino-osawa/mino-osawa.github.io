@@ -1,6 +1,8 @@
+html {
+    border-top: 2px solid rgb(160, 100, 0);
+}
 body {
     font-family : "Arial", sans-serif;
-    border-top: 2px solid rgb(160, 100, 0);
 }
 ul.main li {
     margin-bottom : .8em; 
