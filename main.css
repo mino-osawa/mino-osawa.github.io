@@ -41,7 +41,8 @@ h2, h3 {
 }
 .affiliation {
     display:inline-block; 
-    vertical-align: top;
+    margin-left:2em;
+    margin-top:.3em;
 }
 
 a {
