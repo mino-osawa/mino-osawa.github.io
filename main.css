@@ -35,6 +35,9 @@ h2, h3 {
     color: #aaa;
 }
 
+.duration, .affiliation {
+    font-size:normal; 
+}
 .duration {
     display:inline-block; 
     min-width: 10em;
