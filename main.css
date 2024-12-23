@@ -24,6 +24,10 @@ h2, h3 {
     display : none;
 }
 
+.pdf {
+    font-weight: bold;
+}
+
 #profile_pic {
     width: 350px;
 }
