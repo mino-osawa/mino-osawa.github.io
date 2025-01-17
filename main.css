@@ -1,8 +1,10 @@
 html {
     border-top: 5px solid #999;
+    background-color: #fff;
 }
 body {
     font-family : "Arial", sans-serif;
+    color: #111;
 }
 ul.main li {
     margin-bottom : .8em; 
