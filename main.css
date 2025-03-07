@@ -24,7 +24,7 @@
 }
   
 html {
-    border-top: 3px solid rgb(180, 130, 50);
+    border-top: 3px solid rgb(150, 20, 50);
     background-color: #fff;
 }
 body {
@@ -63,7 +63,7 @@ h2, h3 {
 }
 
 .tcol {
-    color:rgb(160, 100, 0);
+    color:rgb(160, 40, 0);
 }
 
 .note {
