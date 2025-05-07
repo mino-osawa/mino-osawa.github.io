@@ -22,12 +22,13 @@
     font-weight: bold; 
     font-style: italic;
 }
-  
+html {
+    border-top: 3px solid #007bbb;
+}
 body {
     font-family : "CMU Sans Serif", sans-serif;
     color: #111;
     background-color: #fff;
-    border-top: 3px solid #eff;
 }
 @media (min-width: 600px) {
     body {
