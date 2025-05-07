@@ -23,13 +23,11 @@
     font-style: italic;
 }
   
-html {
-    border-top: 3px solid rgb(150, 20, 50);
-    background-color: #fff;
-}
 body {
     font-family : "CMU Sans Serif", sans-serif;
     color: #111;
+    background-color: #fff;
+    border-top: 3px solid #eff;
 }
 @media (min-width: 600px) {
     body {
