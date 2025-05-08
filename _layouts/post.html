@@ -6,6 +6,9 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HCEG8X3DQT"></script>
@@ -33,9 +36,11 @@
 <body class="page-wrapper">
     {% include header.html %}
     <main class="page-content">
-        <h1>{{ page.title }}</h1>
-        <p class="post_date">{{ page.date | date: "%B %-d, %Y" }}</p>
         <div class="post_content">
+            <h1>{{ page.title }}</h1>
+            <span class="post_info">
+                <time class="post_date">{{ page.date | date: "%B %-d (%a), %Y" }}</time>{% if page.misc %}　{{ page.misc }}{% endif %}
+            </span>
             {{ content }}
         </div>
 
