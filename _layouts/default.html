@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Minoru Osawa">
+    <meta name="description" lang="en" content="Minoru Osawa (大澤 実) is an assistant professor at Kyoto Institute of Economic Research (KIER), Kyoto University, Japan.">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HCEG8X3DQT"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HCEG8X3DQT');
+    </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll('a[href]');
+        links.forEach(link => {
+        const href = link.getAttribute("href");
+        const isExternal = href.startsWith("http") && !href.includes(location.hostname);
+        const isPDF = href.endsWith(".pdf");
+        if (isExternal || isPDF) {
+            link.setAttribute("target", "_blank");
+            link.setAttribute("rel", "noopener noreferrer");
+        }
+        });
+    });
+    </script>
+</head>
+<body class="page-wrapper">
+    {% include header.html %}
+    <main class="page-content">
+        {{ content }}
+    </main>
+    {% include footer.html %}
+</body>
+</html>

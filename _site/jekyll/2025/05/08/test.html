@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Minoru Osawa">
+    <meta name="description" lang="en" content="Minoru Osawa (大澤 実) is an assistant professor at Kyoto Institute of Economic Research (KIER), Kyoto University, Japan.">
+    <title>ページ管理に Jekyll を導入</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HCEG8X3DQT"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HCEG8X3DQT');
+    </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll('a[href]');
+        links.forEach(link => {
+        const href = link.getAttribute("href");
+        const isExternal = href.startsWith("http") && !href.includes(location.hostname);
+        const isPDF = href.endsWith(".pdf");
+        if (isExternal || isPDF) {
+            link.setAttribute("target", "_blank");
+            link.setAttribute("rel", "noopener noreferrer");
+        }
+        });
+    });
+    </script>
+</head>
+<body class="page-wrapper">
+    <nav class="site-nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/teaching.html">Teaching</a></li>
+      <!-- <li><a href="/posts/">Posts</a></li> -->
+    </ul>
+</nav>
+
+    <main class="page-content">
+        <h1>ページ管理に Jekyll を導入</h1>
+        <p class="post_date">May 8, 2025</p>
+        <div class="post_content">
+            <p>この個人サイトにいずれは研究解説や勉強したことのまとめ等の記事を掲載するようにしたいと思っていて，色々の再利用も見据えてテキストファイルベースで運用したい・しかし見た目はいい感じにしたい・そのうえ気分で体裁を適宜微調整したりしたい–––というワガママな気持ちがあり，色々考えた結果 <a href="https://jekyllrb.com/">Jekyll</a> で生成することにした．なかなか綺麗に作ることができた．</p>
+
+<p>実はむかし <a href="https://tex2e.github.io/blog/">晴耕雨読</a> さんを参考にブログを <a href="https://jwillmer.github.io/jekyllDecent/">JekyllDecent</a> で作成しようとトライしてみたことがあるのだけど，好みに合うようにカスタマイズするのが面倒でブログ投稿どころかブログ制作の試みそのものが三日坊主になった．今回はページが少なくかつあまり重たくならないうちに，最小限の構成で雛形を整えておき，あとから気が向いたタイミングで徐々に機能やデザインを追加していくという方針にした．ChatGPTのおかげで割とサクサクできた．修正も（少なくとも技術的には）簡単にできるようになったはずだ．一番ありがたいのは，Markdownで書いてコミットすればそれで公開，という極力ストレスの少ないワークフローになるところ．将来的には数式入りのメモも載せられるように，MathJax も仕込んである．あとは書くだけ–––．</p>
+
+<p>こんな自己満足作業の前にやるべきことがいっぱいあるよねという話が大いにある．ほぼ息抜き・気分転換という感じである．昔からこういうのをやり始めるとつい熱中してしまう悪癖がある．細工仕事で身をたてるべきだったのかもしれない．関係があるかはわからないが父方の祖父は指物師だったらしい．とりあえず最初のうちは中身のある記事もないしグローバルナビでは非表示にしておこうかな……．</p>
+
+        </div>
+
+        <div class="post-nav">
+            
+          
+            
+        </div>
+    </main>
+    <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Minoru Osawa. All rights reserved.</p>
+      <p>
+        <a href="/">Home</a> | 
+        <a href="/teaching.html">Teaching</a> | 
+        <a href="/posts/">Posts</a> 
+      </p>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+</body>
+</html>
