@@ -5,7 +5,7 @@ title: M. Osawa - Teaching
 
 <h1>Teaching</h1>
 
-<p>誤りがあったら些細な点でもぜひ教えてください．</p>
+<p>記述の誤りがあったらぜひ教えてください．</p>
 
 <hr>
 
