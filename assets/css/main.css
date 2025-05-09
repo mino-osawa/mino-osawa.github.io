@@ -125,7 +125,7 @@ ol li a {
 
 hr {
     border: none;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #aaa; 
     height: 0;
     margin: 1.5em 0;
 }
@@ -180,7 +180,6 @@ p {
 }
 
 .post_misc {
-    font-family: "CMU Serif", "Noto Serif JP", sans-serif;
     display: inline-block;
     margin-left: 1em;
 }
@@ -432,7 +431,7 @@ p {
     }
 
     #profile_pic {
-        width: clamp(10rem, 5.714rem + 21.43vw, 16rem); 
+        width: clamp(13rem, 10.857rem + 10.71vw, 16rem); 
         height: auto;
     }
   
