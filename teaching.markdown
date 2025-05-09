@@ -1,15 +1,21 @@
 ---
 layout: default
-title: Lecture Notes
+title: M. Osawa - Teaching
 ---
 
 <h1>Teaching</h1>
 
 <p>誤りがあったら些細な点でもぜひ教えてください．</p>
 
-<h2>交通経済学</h2>
+<hr>
 
+<div class="title-block">
+  <h2 class="jp">交通経済学</h2>
+  <div class="en">Transportation Economics</div>
+</div>
+<div class="course-info">
 京都大学：2025前期
+</div>
 
 <ol start="0">
 <li><a href="notes/transport/TE25-00_Syllabus.pdf">シラバス</a></li>
@@ -26,9 +32,15 @@ title: Lecture Notes
 <li>立地と交通</li>
 </ol>
 
-<h2>均衡分析と数理最適化</h2>
+<hr>
 
+<div class="title-block">
+  <h2 class="jp">均衡分析と数理最適化</h2>
+  <div class="en">Variational Inequalities and Economic Equilibrium Problems</div>
+</div>
+<div class="course-info">
 京都大学：2021後期, 2022後期, 2023後期, 2024後期
+</div>
 
 <ol start="0">
 <li><a href="notes/vip/24-00_Orientation.pdf">講義概要</a></li>
@@ -42,14 +54,21 @@ title: Lecture Notes
 <li><a href="notes/vip/24-08_Stability.pdf">均衡選択</a></li>
 </ol>
 
-<h2>都市経済学（2024前期）</h2>
+<hr>
 
+<div class="title-block">
+  <h2 class="jp">都市経済学</h2>
+  <div class="en">Urban Economics</div>
+</div>
+<div class="course-info">
 京都大学：2024前期
+</div>
 
 <ul>
 <li>板書のみで実施しています．</li>
 </ul>
 
+<hr>
 
 <h2>Other Expository Notes</h2>
 <ul>

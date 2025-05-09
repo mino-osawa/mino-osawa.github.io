@@ -2,18 +2,21 @@
 layout: default
 ---
 
-<h1>Minoru OSAWA</h1>
-
 <div id="profile">
-<img src="/assets/img/minoru_osawa.jpg" id="profile_pic">
+    <div id="profile_pic-wrapper">
+        <img src="/assets/img/minoru_osawa.jpg" id="profile_pic">
+    </div>
+    <div id="description-wrapper">
+        <h1>Minoru OSAWA</h1>
+        <p>Welcome! I am an assistant professor at <a href="https://www.kier.kyoto-u.ac.jp/en/">Kyoto Institute of Economic Research (KIER)</a>, Kyoto University. I explore how human behavior unfolds across space and time. Looking forward to exchanging thoughts with you.</p>
 
-<p>Welcome! I am an assistant professor at <a href="https://www.kier.kyoto-u.ac.jp/en/" target="_blank">Kyoto Institute of Economic Research (KIER)</a>, Kyoto University. My door is always open. I look forward to exchanging thoughts with you!</p>
-
-<p id="eml">osawa.<span class="qawsedrftgyhujikolp">[Remove This]</span>minoru.4z@<span class="qawsedrftgyhujikolp">[Remove This]</span>kyot<span class="qawsedrftgyhujikolp">[Remove This]</span>o-u.a<span class="qawsedrftgyhujikolp">[Remove This]</span>c.jp</p>
-
-<p id="loc"><a href="https://maps.app.goo.gl/E2Qxmj5z11s1J57G9" target="_blank">Kyoto, Japan</a></p>
-
-<p id="twt"><a href="https://twitter.com/minoru_osawa" target="_blank">Twitter</a></p>
+        <ul id="info">
+        <li id="eml">osawa.<span class="qawsedrftgyhujikolp">[Remove This]</span>minoru.4z@<span class="qawsedrftgyhujikolp">[Remove This]</span>kyot<span class="qawsedrftgyhujikolp">[Remove This]</span>o-u.a<span class="qawsedrftgyhujikolp">[Remove This]</span>c.jp</li>
+        <li id="loc"><a href="https://maps.app.goo.gl/E2Qxmj5z11s1J57G9">Kyoto, Japan</a></li>
+        <li id="twt"><a href="https://twitter.com/minoru_osawa">Twitter</a> / <a href="https://www.researchgate.net/profile/Minoru-Osawa">ResearchGate</a></li>
+        <li id="lnks"><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a> / <a href="https://orcid.org/0000-0001-9067-5375">ORCiD</a> / researchmap (<a href="https://researchmap.jp/minoru_osawa?lang=en">English</a>, <a href="https://researchmap.jp/minoru_osawa" title="和文論文，経歴・賞罰・研究費獲得実績等はこちら．">日本語</a>)</li>
+        </ul>
+    </div>
 </div>
 
 <hr>
@@ -22,10 +25,10 @@ layout: default
 
 <h3>Selected Discussion Papers</h3>
 
-<ul class="main">
-    <li><a href="https://arxiv.org/abs/1912.05113" target="_blank">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113" target="_blank" class="pdf">PDF</a>] <br><span class="note">[Previously circulated as: "Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications"/"Endogenous agglomeration in a many-region world"/"Multimodal agglomeration in economic geography"]</span></li>
+<ul class="ref-list">
+    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [ <a href="https://arxiv.org/pdf/1912.05113">PDF</a> ] <br><span class="note">[Previously circulated as: "Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications"/"Endogenous agglomeration in a many-region world"/"Multimodal agglomeration in economic geography"]</span></li>
 
-    <li><a href="https://arxiv.org/abs/2207.05346" target="_blank">Origin of power laws and their spatial fractal structure for city-size distributions</a> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346" target="_blank" class="pdf">PDF</a>]</li>
+    <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [ <a href="https://arxiv.org/pdf/2207.05346">PDF</a> ]</li>
 </ul>
 
 <h3>Publications</h3>
@@ -34,43 +37,34 @@ Ordered by my preference. Please see <a href="https://orcid.org/0000-0001-9067-5
 ">ORCiD</a> or <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_blank
 ">Google Scholar</a> for a chronological list. 
 
-<ul class="main" id="publications">
-
-<li><a href="https://doi.org/10.1016/j.jet.2020.105025" target="_blank">Equilibrium reﬁnement for a model of non-monocentric internal structures of cities: A potential game approach</a> <br><i class="tcol">Journal of Economic Theory</i> (2020) [<a href="https://drive.google.com/open?id=1Y5okEA5ZY9APvol5MFqpGapphfukdB2P&usp=drive_fs" target="_blank" class="pdf">PDF</a>] (with Takashi Akamatsu)</li>
-    
-<li><a href="https://doi.org/10.1111/jors.12306" target="_blank">Harris and Wilson (1978) model revisited: The spatial period-doubling bifurcation in an urban retail model</a> <br><i class="tcol">Journal of Regional Science</i> (2016) [<a href="https://drive.google.com/open?id=1YJwRv2AHs2z1Rdb8CxszlRiqytYDv-Fm&usp=drive_fs" target="_blank" class="pdf">PDF</a>] (with Takashi Akamatsu and Yuki Takayama)</li>
-
-<li><a href="https://doi.org/10.1016/j.trb.2017.09.003" target="_blank">First-best dynamic assignment of commuters with endogenous heterogeneities in a corridor network</a> <br><i class="tcol">Transportation Research Part B: Methodological</i> (2018) [<a href="https://drive.google.com/open?id=1YLaqL3wjm49qNP9Nzf_gdUSrkKnAwK8K&usp=drive_fs" target="_blank" class="pdf">PDF</a>]  
-    (with Haoran Fu and Takashi Akamatsu)</li>
-
-<li><a href="https://doi.org/10.1111/jors.12582" target="_blank">Perturbed cusp catastrophe in a population game: Spatial economics with locational asymmetries</a> <br><i class="tcol">Journal of Regional Science</i> (2022) [<a href="https://drive.google.com/open?id=1XkYQaNZZ2R6cWrv5GID_HZHJSsuj_1yw&usp=drive_fs" target="_blank" class="pdf">PDF</a>] (with Kiyohiro Ikeda, José Maria Gaspar, and Yuki Takayama)</li>
-
-<li><a href="https://doi.org/10.1142/S0218127420502405" target="_blank">Breaking and sustaining bifurcations in \(S_N\)-invariant equidistant economy</a> <br><i class="tcol">International Journal of Bifurcation and Chaos</i> (2021) [<a href="https://drive.google.com/open?id=1Y-rvKi1loMGUyBpgiKShzXxzxvYvnfqr&usp=drive_fs" target="_blank" class="pdf">PDF</a>] (with Hiroki Aizawa, Kiyohiro Ikeda, and José Maria Gaspar)</li>
-
-<li><a href="https://doi.org/10.1038/s41598-021-81630-9" target="_blank">Model-based analysis on social acceptability and feasibility of a focused protection strategy against the COVID-19 pandemic</a> <br><i class="tcol">Scientific Reports</i> (2021) [<a href="https://drive.google.com/open?id=1Xq0fkIJ6Bwq0GU53KIHbaYV1kQuon6tD&usp=drive_fs" target="_blank" class="pdf">PDF</a>] (with Takashi Akamatsu, Takeshi Nagae, Koki Satsukawa, Takara Sakai, Daiziro Mizutani)</li>
-
-<li><a href="https://doi.org/10.1007/s11067-021-09557-2" target="_blank">Time evolution of city distributions in Germany: Group-theoretic spectrum analysis</a> <br><i class="tcol">Networks and Spatial Economics</i> (2022) [<a href="https://drive.google.com/open?id=1Xm8uZ6nL6e_EMwmF1u2Ihw_6J_0ELfLj&usp=drive_fs" target="_blank" class="pdf">PDF</a>] (with Kiyohiro Ikeda and Yuki Takayama)</li>
-
-<li><a href="https://doi.org/10.2208/journalofjsce.1.1_447" target="_blank">Spatio-temporal analysis of gasoline shortages in the Tohoku region after the Great East Japan Earthquake</a> <br><i class="tcol">Journal of JSCE</i> (2013) [<a href="https://drive.google.com/open?id=1YLgMtuWF4jn5A_vQNtQdNpSS94GiI77o&usp=drive_fs" target="_blank" class="pdf">PDF</a>] (with Takashi Akamatsu, Takeshi Nagae, and Hiromichi Yamaguchi)</li>
+<ul class="ref-list">
+  {% for pub in site.data.publications %}
+    <li>
+      <a href="{{ pub.url }}">{{ pub.title }}</a> <br>
+      <em class="tcol">{{ pub.journal }}</em> ({{ pub.year }}) 
+      {% if pub.coauthors %}(with {{ pub.coauthors }}){% endif %}
+      {% if pub.pdf %}[ <a href="{{ pub.pdf }}">PDF</a> ]{% endif %}
+    </li>
+  {% endfor %}
 </ul>
 
 <h3>Working Papers</h3>
 
-<ul class="main">
-<li><a href="https://arxiv.org/abs/2212.14475" target="_blank">Innovation through intra and inter-regional interaction in economic geography</a> (with José Maria Gaspar)</li>
+<ul class="ref-list">
+<li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (with José Maria Gaspar)</li>
 
-<li><a href="https://arxiv.org/abs/2012.12503" target="_blank">Cities in a world of diminishing transport costs</a> (with Tomoya Mori)</li>
+<li><a href="https://arxiv.org/abs/2012.12503">Cities in a world of diminishing transport costs</a> (with Tomoya Mori)</li>
 
-<li><a href="https://arxiv.org/abs/2011.06778" target="_blank">Stochastic stability of endogenous agglomeration patterns in an urban retail mode</a>  (with Takashi Akamatsu and Yosuke Kogure)</li>
+<li><a href="https://arxiv.org/abs/2011.06778">Stochastic stability of endogenous agglomeration patterns in an urban retail mode</a>  (with Takashi Akamatsu and Yosuke Kogure)</li>
 
-<li><a href="https://arxiv.org/abs/2001.05095" target="_blank">Production externalities and dispersion process in a multi-region economy</a> (with José Maria Gaspar)</li>
+<li><a href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (with José Maria Gaspar)</li>
 </ul>
 
 
 <hr>
 
 <h2>Education and Work Experiences</h2>
-<ul class="main">
+<ul class="ref-list">
     <li>
         <b>Apr. 2020 - Present:</b> 
         <span class="tcol">Assistant Professor</span>  (tenure-track). <br> 
@@ -88,7 +82,7 @@ Ordered by my preference. Please see <a href="https://orcid.org/0000-0001-9067-5
         <b>Sep. 2016:</b> 
         <span class="tcol">Ph.D. (Information Sciences)</span>. <br>
         Department of Human-Social Information Sciences,<br> Graduate School of Information Sciences, Tohoku University.<br>
-        (Thesis supervisor: <a href="http://www.plan.civil.tohoku.ac.jp/~akamatsu/Akamatsu-E.htm" target="_blank">Takashi Akamatsu</a>)</li>
+        (Thesis supervisor: <a href="http://www.plan.civil.tohoku.ac.jp/~akamatsu/Akamatsu-E.htm">Takashi Akamatsu</a>)</li>
     <li>
         <b>Mar. 2012:</b> 
         <span class="tcol">Bachelor of Engineering</span>. <br>
@@ -99,14 +93,13 @@ Ordered by my preference. Please see <a href="https://orcid.org/0000-0001-9067-5
 
 <hr>
 
-<h2>Other Info and Links</h2>
+<h2>Misc.</h2>
 
-<ul class="main">
-<li>Born in 1990. He/his/him. Love dogs. Love hiking. Do some drawing & painting. You can call me <b>Mino</b> if its easier.</li>
+<ul class="ref-list">
+<li>Born in 1990. He/his/him. Love dogs. Love hiking. Do some drawing & painting.</li>
 
-<li>Our <a href="https://www.kier.kyoto-u.ac.jp/en/workshop_category/urban-economics/" target="_blank">Urban Economics Workshop</a> is always looking for speakers. If you plan to visit Japan and are interested, please feel free to contact me. You are more than welcome.</li>
+<li>You can call me <b>Mino</b> if its easier.</li>
 
-<li><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_blank">Google Scholar</a> / <a href="https://orcid.org/0000-0001-9067-5375" target="_blank">ORCiD</a> / <a href="https://www.researchgate.net/profile/Minoru-Osawa" target="_blank">ResearchGate</a></li>
+<li>Our <a href="https://www.kier.kyoto-u.ac.jp/en/workshop_category/urban-economics/">Urban Economics Workshop</a> is always looking for speakers. Please feel free to contact me if you are interested–––you are more than welcome.</li>
 
-<li>researchmap [<a href="https://researchmap.jp/minoru_osawa?lang=en" target="_blank">English</a>, <a href="https://researchmap.jp/minoru_osawa" target="_blank">日本語</a>] ：和文論文，経歴・賞罰・研究費獲得実績等はこちら．</li>
 </ul>

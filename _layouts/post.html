@@ -18,48 +18,37 @@
     gtag('js', new Date());
     gtag('config', 'G-HCEG8X3DQT');
     </script>
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const links = document.querySelectorAll('a[href]');
-        links.forEach(link => {
-        const href = link.getAttribute("href");
-        const isExternal = href.startsWith("http") && !href.includes(location.hostname);
-        const isPDF = href.endsWith(".pdf");
-        if (isExternal || isPDF) {
-            link.setAttribute("target", "_blank");
-            link.setAttribute("rel", "noopener noreferrer");
-        }
-        });
-    });
-    </script>
+    <script src="/assets/js/utils.js"></script>
 </head>
-<body class="page-wrapper">
+<body>
+    <div class="page-wrapper">
     {% include header.html %}
     <main class="page-content">
-        <div class="post_content">
-            <h1>{{ page.title }}</h1>
-            <span class="post_info">
-                <time class="post_date">{{ page.date | date: "%B %-d (%a), %Y" }}</time>{% if page.misc %}　{{ page.misc }}{% endif %}
-            </span>
-            {{ content }}
-        </div>
-
-        <div class="post-nav">
-            {% if page.previous %}
-              <a class="prev-post" href="{{ page.previous.url }}">
-                ← 前の記事{% if page.previous.stitle %}：{{ page.previous.stitle }}{% endif %}
-              </a>
-            {% endif %}
-          
-            {% if page.next %}
-              <a class="next-post" href="{{ page.next.url }}">
-                次の記事{% if page.next.stitle %}：{{ page.next.stitle }}{% endif %} →
-              </a>
-            {% endif %}
+        <div class="post-container">
+            <div class="post_content">
+                <h1>{{ page.title }}</h1>
+                <div class="post_info">
+                    <time class="post_date">{{ page.date | date: "%B %-d (%a), %Y" }}</time>{% if page.misc %}<span class="post_misc">{{ page.misc }}</span>{% endif %}
+                </div>
+                {{ content }}
+            </div>
+            <div class="post-nav">
+                {% if page.previous %}
+                <a class="prev-post" href="{{ page.previous.url }}">
+                    ← 前の記事{% if page.previous.running_head %}：{{ page.previous.running_head }}{% endif %}
+                </a>
+                {% endif %}
+            
+                {% if page.next %}
+                <a class="next-post" href="{{ page.next.url }}">
+                    次の記事{% if page.next.running_head %}：{{ page.next.running_head }}{% endif %} →
+                </a>
+                {% endif %}
+            </div>
         </div>
     </main>
     {% include footer.html %}
-
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 </body>
 </html>
