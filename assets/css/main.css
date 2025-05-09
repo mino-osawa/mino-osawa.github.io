@@ -454,11 +454,16 @@ p {
     h3 {
         font-size: clamp(1rem, 0.857rem + 0.71vw, 1.2rem);
     }
+
+    .ref-list {
+        margin-left: 1.3rem; 
+        padding-left: 0;
+    }
 }
 
 #info {
     list-style: none;
-    padding-left: 1em; 
+    padding-left: 1rem; 
     line-height: 2;
 }
 
