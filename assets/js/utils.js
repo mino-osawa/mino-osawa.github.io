@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const isPDF = href.endsWith(".pdf");
     if (isExternal || isPDF) {
         link.setAttribute("target", "_blank");
-        link.setAttribute("rel", "noopener noreferrer");
     }
     });
 });

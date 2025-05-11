@@ -71,6 +71,6 @@ title: M. Osawa - Teaching
 <hr>
 
 <h2>Other Expository Notes</h2>
-<ul>
+<ul class="last_list">
 <li><a href="notes/N2412_logit.pdf">Logit Choice and Perturbed Optimization</a></li>
 </ul>

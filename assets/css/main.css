@@ -57,6 +57,10 @@ body {
     color: #111;
 }
 
+main {
+    margin-bottom: 2em;
+}
+
 /* === レイアウト === */
 .page-wrapper {
     display: flex;
@@ -125,7 +129,7 @@ ol li a {
 
 hr {
     border: none;
-    border-top: 1px solid #aaa; 
+    border-top: 1px solid #ddd; 
     height: 0;
     margin: 1.5em 0;
 }
@@ -330,7 +334,7 @@ p {
 }
 
 .site-footer .foot-sep {
-    margin: .8em;
+    margin: .5rem;
 }
 
 /* === 装飾・ユーティリティ === */
