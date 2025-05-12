@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Minoru Osawa">
-    <meta name="description" lang="en" content="Minoru Osawa (大澤 実) is an assistant professor at Kyoto Institute of Economic Research (KIER), Kyoto University, Japan.">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
-    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HCEG8X3DQT"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-HCEG8X3DQT');
-    </script>
-    <script src="/assets/js/utils.js"></script>
+{% include head.html %}
+{% if page.layout == "post" %}
+{% include head_post.html %}
+{% endif %}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HCEG8X3DQT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HCEG8X3DQT');
+</script>
 </head>
+
 <body>
-    <div class="page-wrapper">
-    {% include header.html %}
-    <main class="page-content">
-        {{ content }}
-    </main>
-    {% include footer.html %}
-    </div>
+<div class="page-wrapper">
+{% include header.html %}
+
+<main class="page-content">
+{{ content }}
+</main>
+
+{% include footer.html %}
+</div>
 </body>
 </html>

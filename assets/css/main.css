@@ -2,7 +2,7 @@
 :root {
     --color-konpeki: #007bbb;
     --color-hanada: #005caf;
-    --color-kokihi: #c9171e;
+    --color-shozyohi: #e2041b;
 }
 
 /* === フォント定義 === */
@@ -155,8 +155,7 @@ p {
     line-height: 1.8;
     margin-top: 0.3em;
 }
-
-/* === 投稿（記事）スタイル === */
+/* === ポスト一覧 ===*/
 .posts-container {
     width: fit-content;
     margin: 0 auto;
@@ -169,63 +168,6 @@ p {
 
 .posts-header {
     text-align: center;
-}
-
-.post_info {
-    margin: 0 0 1.5em 0;
-}
-
-.post_title {
-    font-size: clamp(1.3rem, 4vw, 1.8rem);
-}
-
-.post_date {
-    font-weight: bold;
-}
-
-.post_misc {
-    display: inline-block;
-    margin-left: 1em;
-}
-
-.post_content {
-    max-width: 44rem;
-    padding: 1rem 0;
-    margin: 0;
-    border-bottom: 1px solid #eee;
-}
-
-.post_content p {
-    font-family: "CMU Serif", "Noto Serif JP", sans-serif;
-    text-align: justify;
-    text-justify: inter-ideograph;
-}
-
-.post-nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
-    flex-wrap: wrap;
-    max-width: 44rem;
-    padding: 1rem 0;
-}
-
-.post-nav a {
-    display: inline-block;
-    padding: 0.6em 0em;
-    text-decoration: none;
-}
-
-.post-nav a:hover {
-    text-decoration: underline;
-}
-
-.prev-post {
-    text-align: left;
-}
-
-.next-post {
-    text-align: right;
 }
 
 /* === ナビゲーション === */
@@ -343,7 +285,7 @@ p {
 }
 
 .tcol {
-    color: var(--color-kokihi);
+    color: var(--color-shozyohi);
 }
 
 .note {
