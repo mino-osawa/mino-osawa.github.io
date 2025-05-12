@@ -5,7 +5,7 @@ title: M.Osawa's Website
 
 <div id="profile">
     <div id="profile_pic-wrapper">
-        <img src="/assets/img/minoru_osawa.jpg" id="profile_pic">
+        <img src="/assets/img/minoru_osawa.jpg" id="profile_pic" alt="Minoru Osawa">
     </div>
     <div id="description-wrapper">
         <h1>Minoru OSAWA</h1>
