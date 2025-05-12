@@ -1,5 +1,6 @@
 ---
 layout: default
+title: M.Osawa's Website
 ---
 
 <div id="profile">
@@ -14,7 +15,7 @@ layout: default
         <li id="eml">osawa.<span class="qawsedrftgyhujikolp">[Remove This]</span>minoru.4z@<span class="qawsedrftgyhujikolp">[Remove This]</span>kyot<span class="qawsedrftgyhujikolp">[Remove This]</span>o-u.a<span class="qawsedrftgyhujikolp">[Remove This]</span>c.jp</li>
         <li id="loc"><a href="https://maps.app.goo.gl/E2Qxmj5z11s1J57G9">Kyoto, Japan</a></li>
         <li id="twt"><a href="https://twitter.com/minoru_osawa">Twitter</a> / <a href="https://www.researchgate.net/profile/Minoru-Osawa">ResearchGate</a></li>
-        <li id="lnks"><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a> / <a href="https://orcid.org/0000-0001-9067-5375">ORCiD</a> / researchmap (<a href="https://researchmap.jp/minoru_osawa?lang=en">English</a>, <a href="https://researchmap.jp/minoru_osawa" title="和文論文，経歴・賞罰・研究費獲得実績等はこちら．">日本語</a>)</li>
+        <li id="lnks"><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a> / <a href="https://orcid.org/0000-0001-9067-5375">ORCiD</a> /  <a href="https://researchmap.jp/minoru_osawa">researchmap</a></li>
         </ul>
     </div>
 </div>

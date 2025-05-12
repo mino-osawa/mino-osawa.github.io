@@ -1,6 +1,6 @@
 ---
 layout: default
-title: M. Osawa - Teaching
+title: M.Osawa - Teaching
 ---
 
 <h1>Teaching</h1>

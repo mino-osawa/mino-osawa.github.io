@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "サイトの管理を Jekyll に移行した"
-running_head: "Jekyll導入"
+running_head: "Jekyll 移行"
 categories: Misc
 misc: 快晴
 ---

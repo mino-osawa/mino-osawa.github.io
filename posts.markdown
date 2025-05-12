@@ -1,6 +1,6 @@
 ---
 layout: default
-title: M. Osawa - Posts
+title: M.Osawa - Posts
 permalink: /posts/
 ---
 
