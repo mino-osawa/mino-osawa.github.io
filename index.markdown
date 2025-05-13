@@ -27,7 +27,7 @@ title: M.Osawa's Website
 <h3>Selected Discussion Papers</h3>
 
 <ul class="ref-list">
-    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">PDF</a>] <br><span class="note">[Previously circulated as: "Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications"/"Endogenous agglomeration in a many-region world"/"Multimodal agglomeration in economic geography"]</span></li>
+    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">PDF</a>] <span class="note">(Previous versions: <a href="https://www.rieti.go.jp/jp/publications/summary/17120005.html" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a</a>, <a href="https://mpra.ub.uni-muenchen.de/97496/" alt="Endogenous agglomeration in a many-region world">2017b</a>)</span></li>
 
     <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">PDF</a>]</li>
 </ul>
@@ -91,6 +91,7 @@ Ordered by my preference. Please see <a href="https://orcid.org/0000-0001-9067-5
     <li>
         <b>Mar. 2008:</b> 長野県松本深志高等学校 卒業</li>
 </ul>
+
 
 <hr>
 

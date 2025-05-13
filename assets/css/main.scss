@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-  font-family: "CMU Sans Serif", sans-serif;
+  font-family: "Computer Modern Sans Serif", sans-serif;
   color: #111;
 }
 
@@ -56,7 +56,7 @@ main {
 
 /* === タイポグラフィ・文書構造 === */
 h1, h2, h3 {
-  font-family: "CMU Sans Serif", sans-serif;
+  font-family: "Computer Modern Sans Serif", sans-serif;
   font-weight: bold;
   margin: 0 0 .5em 0;
 }
@@ -241,7 +241,7 @@ p {
   color: $color-shozyohi;
 }
 
-.note {
+.note, .note a {
   color: #777;
 }
 
@@ -265,7 +265,7 @@ p {
   .en {
     font-size: clamp(1.1rem, 1.5vw, 1.2rem);
     color: #333;
-    font-weight: bold;
+    font-family: "Computer Modern Typewriter", sans-serif; 
   }
 }
 
@@ -316,7 +316,8 @@ p {
 
   h1 {
     margin: 0;
-    font-family: "CMU Serif", serif;
+    font-family: "Computer Modern Serif", serif;
+    font-weight: bold; 
 
     @media (max-width: 768px) {
       text-align: center;
@@ -353,7 +354,6 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 #eml::before { background-image: url("/assets/img/mail.png"); }
 #loc::before { background-image: url("/assets/img/mappin.png"); }
 #twt::before { background-image: url("/assets/img/twitter.png"); }
