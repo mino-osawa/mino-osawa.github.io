@@ -13,9 +13,10 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 # Site settings
-title: Minoru Osawa's Website
+title: "Minoru Osawa's Website"
+author: "Minoru Osawa"
 description: >- # this means to ignore newlines until "baseurl:"
-  Minoru Osawa (大澤 実) is an assistant professor at Kyoto Institute of Economic Research (KIER), Kyoto University, Japan.
+  Minoru Osawa (大澤 実; おおさわ みのる) is an assistant professor at Kyoto Institute of Economic Research (KIER), Kyoto University, Japan.
 baseurl: ""
 url: "https://mino-osawa.github.io/"
 twitter_username: minoru_osawa
@@ -26,6 +27,9 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+sass:
+  style: compressed
   
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -46,3 +50,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+

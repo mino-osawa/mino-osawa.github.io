@@ -4,11 +4,9 @@
         <a href="/">M.Osawa</a>
       </div>
       <ul>
-        <li><a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
-        <li><a href="/teaching.html" class="{% if page.url == '/teaching.html' %}active{% endif %}">Teaching</a></li>
-        {% if page.url == '/posts/' or page.collection == 'posts' %}
-          <li><a href="/posts/" class="{% if page.url == '/posts/' or page.collection == 'posts' %}active{% endif %}">Posts</a></li>
-        {% endif %}
+        <li><a href="/"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+        <li><a href="/teaching/"{% if page.url == '/teaching/' %} class="active"{% endif %}>Teaching</a></li>
+        {% if page.url == '/posts/' or page.collection == 'posts' %}<li><a href="/posts/"{% if page.url == '/posts/' or page.collection == 'posts' %} class="active"{% endif %}>Posts</a></li>{% endif %}
       </ul>
     </div>
 </nav>

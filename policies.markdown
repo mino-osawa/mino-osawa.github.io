@@ -1,6 +1,7 @@
 ---
-layout: default
-title: M.Osawa - Privacy Policy
+layout: "default"
+title: "M.Osawa - Site Policies"
+permalink: "/policies/"
 ---
 
 <style type="text/css" media="screen">

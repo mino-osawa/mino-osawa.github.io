@@ -1,6 +1,7 @@
 ---
-layout: default
-title: M.Osawa - Teaching
+layout: "default"
+title: "M.Osawa - Teaching"
+permalink: "/teaching/"
 ---
 
 <h1>Teaching</h1>

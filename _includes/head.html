@@ -1,21 +1,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="Minoru Osawa">
-<meta name="description" lang="en" content="Minoru Osawa (大澤 実; おおさわ みのる) is an assistant professor at Kyoto Institute of Economic Research (KIER), Kyoto University, Japan.">
+<meta name="author" content="{{ site.author }}">
+<meta name="description" lang="en" content="{{ site.description }}">
 <title>
 {% if page.layout == "post" %}
-    {{ page.date | date: "%Y-%m-%d" }}: 
-    {% if page.running_head %}
-        {{ page.running_head }}
-    {% else %}
-        雑記
-    {% endif %}
+    {{ page.date | date: "%Y-%m-%d" }}: {% if page.running_head %}{{ page.running_head }}{% else %}雑記{% endif %}
 {% else %}
     {{ page.title }}
 {% endif %}
 </title>
 <link rel="icon" type="image/png" href="/favicon.png">
-<link rel="stylesheet" type="text/css" href="{{ '/assets/css/colors.css' | relative_url }}">
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
 <script type="application/ld+json">
 {
