@@ -11,11 +11,11 @@ title: M.Osawa's Website
         <h1>Minoru OSAWA</h1>
         <p>Welcome! I am an assistant professor at <a href="https://www.kier.kyoto-u.ac.jp/en/">Kyoto Institute of Economic Research (KIER)</a>, Kyoto University. I explore how human behavior unfolds across space and time. Looking forward to exchanging thoughts with you.</p>
 
-        <ul id="info">
-        <li id="eml">osawa.<span class="qawsedrftgyhujikolp">[Remove This]</span>minoru.4z@<span class="qawsedrftgyhujikolp">[Remove This]</span>kyot<span class="qawsedrftgyhujikolp">[Remove This]</span>o-u.a<span class="qawsedrftgyhujikolp">[Remove This]</span>c.jp</li>
-        <li id="loc"><a href="https://maps.app.goo.gl/E2Qxmj5z11s1J57G9">Kyoto, Japan</a></li>
-        <li id="twt"><a href="https://twitter.com/minoru_osawa">Twitter</a> / <a href="https://www.researchgate.net/profile/Minoru-Osawa">ResearchGate</a></li>
-        <li id="lnks"><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a> / <a href="https://orcid.org/0000-0001-9067-5375">ORCiD</a> /  <a href="https://researchmap.jp/minoru_osawa">researchmap</a></li>
+        <ul class="info">
+        <li class="em">osawa&#46;<span class="Eetae3eo">[Remove]</span>minoru<span class="Hoo9Phie">[Remove]</span>.4z<span class="Tho2ail2">[Remove]</span><span class="Oome0Ma0">[Remove]</span>@kyo<span class="moeJeo1u">[Remove]</span>t&#111;&#45;&#117;.&#97;<span class="fii2Eith">[Remove]</span>c.jp</li>
+        <li class="loc"><a href="https://maps.app.goo.gl/E2Qxmj5z11s1J57G9">Kyoto, Japan</a></li>
+        <li class="twt"><a href="https://twitter.com/minoru_osawa">Twitter</a> / <a href="https://www.researchgate.net/profile/Minoru-Osawa">ResearchGate</a></li>
+        <li class="lnks"><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a> / <a href="https://orcid.org/0000-0001-9067-5375">ORCiD</a> /  <a href="https://researchmap.jp/minoru_osawa">researchmap</a></li>
         </ul>
     </div>
 </div>

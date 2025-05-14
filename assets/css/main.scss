@@ -7,7 +7,6 @@
 
 /* === ベーススタイル === */
 html, body {
-  font-size: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -16,6 +15,7 @@ html, body {
 
 body {
   font-family: "Computer Modern Sans Serif", sans-serif;
+  font-size: clamp(1rem, calc(1.2vw + 0.9rem), 1.125rem);
   color: #111;
 }
 
@@ -75,6 +75,9 @@ h3 {
   li {
     margin-bottom: 0.8em;
   }
+  @media (max-width: 600px) {
+    padding-left: 1.2em;
+  }
 }
 
 ol li a {
@@ -94,10 +97,11 @@ a {
 
   &[href*="pdf/"], &[href*="drive.google.com"] {
     color: blue;
+    font-weight: bold;
   }
 
   &[href$=".pdf"] {
-    color: $color-hanada;
+    color: $color-konpeki;
   }
 
   &:hover {
@@ -219,7 +223,7 @@ p {
   color: #777;
 
   a {
-    color: $color-hanada;
+    color: $color-konpeki;
     text-decoration: none;
 
     &:hover {
@@ -233,12 +237,13 @@ p {
 }
 
 /* === 装飾・ユーティリティ === */
-.qawsedrftgyhujikolp {
+.Eetae3eo, .Oome0Ma0, .moeJeo1u, .fii2Eith, .Thae3jah, .kei2loP9, .Moi8yei1, .eh3Noo1C, .Tho2ail2, .Hoo9Phie
+ {
   display: none;
 }
 
 .tcol {
-  color: $color-shozyohi;
+  color: $color-shoujouhi;
 }
 
 .note, .note a {
@@ -330,10 +335,10 @@ p {
   }
 }
 
-#info {
+.info {
   list-style: none;
   padding-left: 1rem; 
-  line-height: 2;
+  line-height: 1.8;
 
   @media (max-width: 768px) {
     padding-left: 0;
@@ -344,7 +349,11 @@ p {
   }
 }
 
-#eml::before, #loc::before, #twt::before, #lnks::before {
+.em {
+    font-family: 'Monaco', monospace; 
+    font-size: 97%; 
+}
+.em::before, .loc::before, .twt::before, .lnks::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -354,7 +363,7 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
 }
-#eml::before { background-image: url("/assets/img/mail.png"); }
-#loc::before { background-image: url("/assets/img/mappin.png"); }
-#twt::before { background-image: url("/assets/img/twitter.png"); }
-#lnks::before { background-image: url("/assets/img/link.png"); }
+.em::before { background-image: url("/assets/img/mail.png"); }
+.loc::before { background-image: url("/assets/img/mappin.png"); }
+.twt::before { background-image: url("/assets/img/twitter.png"); }
+.lnks::before { background-image: url("/assets/img/link.png"); }

@@ -28,6 +28,10 @@
     font-family: "Computer Modern Serif", "Noto Serif JP", sans-serif;
     text-align: justify;
     text-justify: inter-ideograph;
+
+    @media (max-width: 768px) {
+        font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem); 
+    }
   }
 }
 
