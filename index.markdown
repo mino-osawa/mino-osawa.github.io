@@ -41,8 +41,8 @@ Ordered by my preference. Please see <a href="https://orcid.org/0000-0001-9067-5
 <ul class="ref-list">
   {% for pub in site.data.publications %}
     <li>
-      <a href="{{ pub.url }}">{{ pub.title }}</a> <br>
-      <em class="tcol">{{ pub.journal }}</em> ({{ pub.year }}) 
+      <a href="{{ pub.url }}" class="paper-title">{{ pub.title }}</a> <br>
+      <em class="red-like">{{ pub.journal }}</em> ({{ pub.year }}) 
       {% if pub.coauthors %}(with {{ pub.coauthors }}){% endif %}
       {% if pub.pdf %}[<a href="{{ pub.pdf }}">PDF</a>]{% endif %}
     </li>
@@ -68,25 +68,25 @@ Ordered by my preference. Please see <a href="https://orcid.org/0000-0001-9067-5
 <ul class="ref-list">
     <li>
         <b>Apr. 2020 - Present:</b> 
-        <span class="tcol">Assistant Professor</span>  (tenure-track). <br> 
+        <span class="red-like">Assistant Professor</span>  (tenure-track). <br> 
         Institute of Economic Research, Kyoto University</li>
     <li>
         <b>Oct. 2016 - Mar. 2020:</b> 
-        <span class="tcol">Assistant Professor</span> (termed). <br>
+        <span class="red-like">Assistant Professor</span> (termed). <br>
         Department of Civil and Environmental Engineering, <br>
         School of Engineering, Tohoku University</li>
     <li>
         <b>Apr. 2014 - Sep. 2016:</b> 
-        <span class="tcol">Research Fellow (DC1)</span>. <br> 
+        <span class="red-like">Research Fellow (DC1)</span>. <br> 
         Japan Society for the Promotion of Science</li>
     <li>
         <b>Sep. 2016:</b> 
-        <span class="tcol">Ph.D. (Information Sciences)</span>. <br>
+        <span class="red-like">Ph.D. (Information Sciences)</span>. <br>
         Department of Human-Social Information Sciences,<br> Graduate School of Information Sciences, Tohoku University.<br>
         (Thesis supervisor: <a href="http://www.plan.civil.tohoku.ac.jp/~akamatsu/Akamatsu-E.htm">Takashi Akamatsu</a>)</li>
     <li>
         <b>Mar. 2012:</b> 
-        <span class="tcol">Bachelor of Engineering</span>. <br>
+        <span class="red-like">Bachelor of Engineering</span>. <br>
         Department of Civil Engineering and Architecture, <br> School of Engineering, Tohoku University</li>
     <li>
         <b>Mar. 2008:</b> 長野県松本深志高等学校 卒業</li>
