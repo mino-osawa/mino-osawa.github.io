@@ -367,3 +367,41 @@ p {
 .loc::before { background-image: url("/assets/img/mappin.png"); }
 .twt::before { background-image: url("/assets/img/twitter.png"); }
 .lnks::before { background-image: url("/assets/img/link.png"); }
+
+.inline-abstract {
+  display: inline;
+  @media (max-width: 768px) {
+    display: none;
+  }
+  summary {
+    display: inline-block;
+    margin-left: 0.5em;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &::marker {
+      content: none;
+    }
+
+  }
+
+  div {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    max-width: 45em;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #444;
+    line-height: 1.5;
+    font-family: "Computer Modern Serif", serif;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .abstract-close {
+    float: right;
+    font-weight: bold; 
+    font-family: "Computer Modern Sans Serif";
+  }
+}

@@ -10,7 +10,6 @@ title: M.Osawa's Website
     <div id="description-wrapper">
         <h1>Minoru OSAWA</h1>
         <p>Welcome! I am an assistant professor at <a href="https://www.kier.kyoto-u.ac.jp/en/">Kyoto Institute of Economic Research (KIER)</a>, Kyoto University. I explore how human behavior unfolds across space and time. Looking forward to exchanging thoughts with you.</p>
-
         <ul class="info">
         <li class="em">osawa&#46;<span class="Eetae3eo">[Remove]</span>minoru<span class="Hoo9Phie">[Remove]</span>.4z<span class="Tho2ail2">[Remove]</span><span class="Oome0Ma0">[Remove]</span>@kyo<span class="moeJeo1u">[Remove]</span>t&#111;&#45;&#117;.&#97;<span class="fii2Eith">[Remove]</span>c.jp</li>
         <li class="loc"><a href="https://maps.app.goo.gl/E2Qxmj5z11s1J57G9">Kyoto, Japan</a></li>
@@ -27,9 +26,26 @@ title: M.Osawa's Website
 <h3>Selected Discussion Papers</h3>
 
 <ul class="ref-list">
-    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">PDF</a>] <span class="note">(Previous versions: <a href="https://www.rieti.go.jp/jp/publications/summary/17120005.html" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a</a>, <a href="https://mpra.ub.uni-muenchen.de/97496/" alt="Endogenous agglomeration in a many-region world">2017b</a>)</span></li>
-
-    <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">PDF</a>]</li>
+    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a><br>(with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">PDF</a>] <span class="note">(Previous versions: <a href="https://www.rieti.go.jp/jp/publications/summary/17120005.html" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a</a>, <a href="https://mpra.ub.uni-muenchen.de/97496/" alt="Endogenous agglomeration in a many-region world">2017b</a>)</span>
+    <details class="inline-abstract">
+        <summary>Abstract</summary>
+        <div class="abstract-body">
+        Why are cities becoming fewer and larger––yet more dispersed within?
+        We argue that this dual transformation reflects two distinct dispersion forces operating at different spatial scales. <i>Within cities</i>, dispersion arises from internal frictions such as land scarcity, pushing residents away from congested centers as transport costs fall. <i>Across cities</i>, dispersion may stem from market crowding: dominant economic centers make nearby areas less viable, and declining transport costs amplify this repulsion. The spatial structure of cities––both internally and across regions––thus reflects the balance between agglomeration benefits and these layered dispersion forces. Which force a model emphasizes crucially shapes its predictions and policy implications. Recognizing and identifying the relevant dispersion mechanisms is thus essential for credible policy analysis, especially when these forces interact across spatial scales. 
+        <span class="abstract-close">Click to close</span>
+        </div>
+    </details>
+    </li>
+    <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a><br> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">PDF</a>] 
+    <details class="inline-abstract">
+        <summary>Abstract</summary>
+        <div class="abstract-body">
+        City-size distributions follow an approximate power law in various countries despite high volatility in relative city sizes over time. Our empirical evidence for the United States and Japan indicates that the scaling law stems from a spatial fractal structure owing to the coordination of industrial locations. While the locations of individual industries change considerably over time, there is a persistent pattern in that more localized industries at a given time are found only in larger cities. The spatial organization of cities exhibits a hierarchical structure in which larger cities are spaced apart to serve as centers for surrounding smaller cities, generating a recursive pattern across different spatial scales. In our theoretical replication of the observed regularities, diversity in scale economy among industries induces diversity in their location pattern, which translates into diversity in city size via spatial coordination of industries and population. The city-size power law is a generic feature of Monte-Carlo samples of stationary states resulting from the spontaneous spatial fractal structure in the hypothetical economy. The identified regularities reveal constraints on feasible urban planning at each regional scale. The success or failure of place-based policies designed to take advantage of individual cities' characteristics should depend on their spatial relationships with other cities, subject to the nationwide spatial fractal structure.
+        <span class="abstract-close">Click to close</span>
+        </div>
+        </div>
+    </details>
+    </li>
 </ul>
 
 <h3>Publications</h3>
