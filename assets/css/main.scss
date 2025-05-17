@@ -392,16 +392,17 @@ p {
     max-width: 45em;
     text-align: justify;
     text-justify: inter-word;
-    color: #444;
     line-height: 1.5;
-    font-family: "Computer Modern Serif", serif;
-    border-left: 1px solid #ddd;
+    border: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
   }
-
+  .abstract-text{ 
+    font-family: "Computer Modern Serif", serif;
+  }
   .abstract-close {
     float: right;
-    font-weight: bold; 
-    font-family: "Computer Modern Sans Serif";
+    background: #eee;
+    padding: 0 .5em;
+    color: #444;
   }
 }
