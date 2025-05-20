@@ -25,8 +25,8 @@ permalink: "/teaching/"
 <li><a href="/notes/transport/TE25-02_MNL.pdf">多項ロジット (MNL) モデル</a></li>
 <li><a href="/notes/transport/TE25-03_MEV.pdf">多変量極値分布 (MEV) モデル</a></li>
 <li><a href="/notes/transport/TE25-04_Estimation.pdf">推定・評価・予測・応用</a></li>
-<li>非集計行動分析の実行</li>
-<li>交通費用と均衡</li>
+<li><a href="/notes/transport/TE25-05_RUM-Project.pdf">非集計行動分析の実行</a></li>
+<li>交通費用</li>
 <li>混雑課金</li>
 <li>公共交通の交通料金</li>
 <li>交通投資</li>
