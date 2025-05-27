@@ -6,8 +6,6 @@ permalink: "/teaching/"
 
 <h1>Teaching</h1>
 
-<p>記述の誤りはぜひ教えてください．</p>
-
 <hr>
 
 <div class="title-block">

@@ -56,7 +56,7 @@ main {
 
 /* === タイポグラフィ・文書構造 === */
 h1, h2, h3 {
-  font-family: "Computer Modern Sans Serif", sans-serif;
+  font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   font-weight: bold;
   margin: 0 0 .5em 0;
 }
@@ -124,6 +124,36 @@ p {
 
 .posts-header {
   text-align: center;
+  @media only screen and (max-width: 600px) {
+    text-align: left; 
+  }
+}
+
+.posts {
+    margin: 0; padding: 0;
+    li {
+        list-style-type: none; 
+        display: block; 
+        padding: .2rem .3rem; 
+        border-bottom: 1px solid #ccc;
+
+        a {
+            text-decoration: none; 
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        time {
+            float: right;
+            color: #555;
+        }
+
+        @media( max-width: 600px ) {
+            time {
+                display: none;
+            }
+        }
+    }
 }
 
 /* === ナビゲーション === */
