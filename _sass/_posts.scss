@@ -19,15 +19,31 @@
 }
 
 .post-content {
+  width: 100%; 
   max-width: 44rem;
   padding: 1rem 0;
-  margin: 0;
+  margin: 0 auto;
   border-bottom: 1px solid #eee;
 
   p {
     font-family: "Computer Modern Serif", "Noto Serif JP", sans-serif;
     text-align: justify;
     text-justify: inter-ideograph;
+
+    @media (max-width: 768px) {
+        max-width: 44rem;
+        font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem); 
+    }
+  }
+
+  pre {
+    overflow-x: auto;
+    max-width: 100%;
+    padding: .2rem .8rem; 
+    font-size: .9rem; 
+    line-height: 1.5;
+    
+    code { font-size: .9rem; }
 
     @media (max-width: 768px) {
         font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem); 
@@ -42,6 +58,7 @@
   flex-wrap: wrap;
   max-width: 44rem;
   padding: 1rem 0;
+  margin: 0 auto;
 
   a {
     display: inline-block;
@@ -51,6 +68,13 @@
       text-decoration: underline;
     }
   }
+
   .prev-post { text-align: left; }
   .next-post { text-align: right; }
+    
+  @media (max-width: 768px) {
+        .prev-post, .next-post { 
+            font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem);  
+        }
+  }
 }

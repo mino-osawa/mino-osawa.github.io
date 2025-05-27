@@ -5,33 +5,32 @@ permalink: "/policies/"
 ---
 
 <style type="text/css" media="screen">
-  .container {
+  .policies-container {
     margin: 1rem auto;
     max-width: 44rem;
+    font-size: 1rem; 
   }
-  h1, h2 {
-    text-align: center;
-  }
-  section {
-    margin-bottom: 1.5rem;
-  }
-  .container p {
+  .policies-container p {
     text-align: justify;
     text-justify: inter-ideograph;
   }
+  h1, h2 { text-align: center; }
+  h2 { font-size: 1.3rem; }
+  section { margin-bottom: 1rem; } 
   ol, ul {
     margin-left: 0; 
-    padding: 0 0 0 1.5em;
+    padding: 0 0 0 2rem;
+    line-height: 2;
   }
 </style>
 
-<div class="container">
+<div class="policies-container">
 
-<h1>サイトポリシー</h1>
+<h1>Site Policies</h1>
 
 <section>
 <h2>アクセス情報の収集について</h2>
-<p>当サイトでは利用者の閲覧状況を統計的に把握し，今後のサイト運用の参考とするため，Google Analytics を利用しています．当該サービスのためのトラフィックデータの収集にはファーストパーティー Cookie を使用しています．Google Analytics におけるプライバシーデータの取り扱いについては Google 社の当該サービスの <a href="https://support.google.com/analytics/answer/6004245?hl=ja">概要説明</a> をご覧ください．なお，ユーザーは，以下の方法で Google Analytics によるデータ収集を拒否可能です：(1) ブラウザの Cookie 設定を変更する，または (2) <a href="https://tools.google.com/dlpage/gaoptout?hl=ja">Google アナリティクス オプトアウト アドオン</a> をインストールする．</p>
+<p>当サイトでは利用者の閲覧状況を統計的に把握し，今後のサイト運用の参考とするため，Google Analytics を利用しています．当該サービスのためのトラフィックデータの収集にはファーストパーティー Cookie を使用しています．Google Analytics におけるプライバシーデータの取り扱いについては Google 社の当該サービスの <a href="https://support.google.com/analytics/answer/6004245?hl=ja">概要説明</a> をご覧ください．なお，ユーザーは，以下の方法で Google Analytics によるデータ収集を拒否可能です：(1) ブラウザの Cookie 設定を変更する，または (2) <a href="https://tools.google.com/dlpage/gaoptout">Google アナリティクス オプトアウト アドオン</a> をインストールする．</p>
 </section>
 
 <section>

@@ -117,7 +117,8 @@ p {
 /* === ポスト一覧 === */
 .posts-container,
 .post-container {
-  width: fit-content;
+  width: 100%;
+  max-width: 48rem; // または同様の制限幅
   margin: 0 auto;
 }
 

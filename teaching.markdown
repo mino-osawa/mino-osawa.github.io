@@ -6,7 +6,7 @@ permalink: "/teaching/"
 
 <h1>Teaching</h1>
 
-<p>記述の誤りがあったらぜひ教えてください．</p>
+<p>記述の誤りはぜひ教えてください．</p>
 
 <hr>
 
@@ -71,7 +71,7 @@ permalink: "/teaching/"
 
 <hr>
 
-<h2>Other Expository Notes</h2>
+<h2>Expository Notes</h2>
 <ul class="last_list">
 <li><a href="/notes/N2412_logit.pdf">Logit Choice and Perturbed Optimization</a></li>
 </ul>
