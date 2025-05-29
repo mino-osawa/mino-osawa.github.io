@@ -16,9 +16,9 @@ layout: default
             ← 前{% if page.previous.running_head %}：{{ page.previous.running_head }}{% endif %}
         </a>
         {% else %}
-        <a class="prev-post" href="/posts/">記事一覧</a>
+        <span class="prev-post"></span>
         {% endif %}
-    
+
         {% if page.next %}
         <a class="next-post" href="{{ page.next.url }}">
             次{% if page.next.running_head %}：{{ page.next.running_head }}{% endif %} →

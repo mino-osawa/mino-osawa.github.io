@@ -78,6 +78,12 @@ h3 {
   @media (max-width: 600px) {
     padding-left: 1.2em;
   }
+  .ref-prev {
+    line-height: 1.2; 
+    li {
+        margin: 0; 
+    }
+  }
 }
 
 ol li a {

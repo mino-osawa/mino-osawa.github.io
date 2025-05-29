@@ -53,4 +53,6 @@ exclude:
 #   - vendor/ruby/
 
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 highlighter: rouge

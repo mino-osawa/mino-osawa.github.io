@@ -1,0 +1,113 @@
+---
+layout: post
+title: Logit (1)：ARUMとロジット選択
+running_head: Logit (1)
+categories: RUM
+misc: 
+---
+
+このシリーズでは，ロジット選択モデルと摂動付き最適化 (perturbed optimization) とのよく知られた関係について簡潔にまとめる．
+なお内容は [別のメモ](/notes/N2412_logit.pdf) とほぼ同一である．
+
+<hr>
+
+意思決定者（decision maker, DM）が，複数の選択肢からどれか一つを選ぶ状況を考える．
+選択肢の有限集合を $A$ とし，各選択肢 $a \in A$ を選んだときの効用　$V_a$ は不確実であり，次のような確率変数として表現されるとする：
+
+$$
+V_a = v_a + \epsilon_a,
+$$
+
+ここで $v_a$ は既知の確定的な利得，$\epsilon_a$ はランダムな利得成分である．
+$\epsilon_a$ は選択肢間で独立同分布 (i.i.d.) であると仮定する．
+
+さらに，DM は確率的な意思決定（混合戦略）を行うとし，各選択肢 $a$ が利得最大となる確率で選ばれるものとする．すなわち，
+
+$$
+p_a = \Pr[V_a \ge V_b\ \forall b \in A] = \Pr[v_a + \epsilon_a \ge v_b + \epsilon_b\ \forall b \in A].
+$$
+
+このような枠組みは，**加法的なランダム効用モデル**  (additive random utility models, ARUM) と呼ばれる．
+
+$\epsilon_a$ が微分可能な累積分布関数 (c.d.f.) $F$ に従う独立同分布であるとき，定義より選択確率 $p_a$ は以下のように表される：
+
+$$
+p_a = \int F'(\epsilon_a) \prod_{b \ne a} F(v_a - v_b + \epsilon_a)\ \mathrm{d}\epsilon_a.
+$$
+
+さらに，各 $\epsilon_a$ がスケールパラメータ $\eta > 0$，ロケーションパラメータ $\mu = - \eta\gamma$ の **ガンベル (Gumbel) 分布**に従うと仮定する．このときの c.d.f. は
+
+$$
+F(\epsilon) = \exp\left( - \exp\left(- \eta^{-1} (\epsilon + \eta\gamma)\right) \right),
+\quad \epsilon \in (-\infty,\infty)
+$$
+
+で与えられる．期待値は　$\mathbb{E}[\epsilon] = \mu + \eta\gamma = 0$，分散は $\operatorname{Var}[\epsilon] = \eta^2 \pi^2 / 6$ で与えられる．
+ただし $\gamma \approx 0.5772$ はオイラー定数．
+したがって，$\eta$ は不確実性の大きさを表すパラメータであり，$\eta$ が大きいほど DM の選択における確定利得 $v$ の影響は小さく，$\eta$ が小さいほど影響は大きくなる．
+
+全ての $\\{\epsilon_a\\}$ が独立に同一のガンベル分布に従うという仮定のもとでは，選択確率は次のような **ロジット選択則** (logit choice rule) になる：
+
+$$
+p_a = \frac{\exp(\eta^{-1} v_a)}{\sum_{b \in A} \exp(\eta^{-1} v_b)}.
+$$
+
+このときの最大化された効用の期待値，すなわち **期待最大効用**  (expected maximum utility, EMU) は
+
+$$
+\lambda \equiv \mathbb{E}[\max_{a\in A} \{V_a\}] = \eta \log \sum_{a \in A} \exp\left(\eta^{-1} v_a\right)
+$$
+
+である．
+
+ロジットモデルにおいては，選択確率 $p_a$ はこの EMU の $v_a$ に関する偏微分である：
+
+$$
+\frac{\partial \lambda}{\partial v_a} = p_a.
+$$
+
+すなわち，選択確率ベクトルは期待最大効用の確定利得ベクトルに関する勾配になっている．
+この結果はロジットモデルに限らず，緩やかな条件のもとで一般の ARUM に拡張される（**Williams–Daly–Zachary の定理**，詳細は [Fosgerau et al. (2020)](https://onlinelibrary.wiley.com/doi/10.1111/iere.12469) などを参照）．
+
+<div class="back-of-envelope">
+<div class="boe-title">選択確率 $p_a$ の計算</div>
+<div class="boe-conents">
+仮定した分布のもとで以下の関係が成立することに注意する：
+$$
+\begin{aligned}
+    & F'(\epsilon) = \rho(\epsilon) F(\epsilon)\quad \text{with}\quad \rho(\epsilon) \equiv \eta^{-1} \exp \left(- \eta^{-1}\epsilon\right)\qquad\quad \text{(= p.d.f.)},\\
+    & F(v + \epsilon) = F(\epsilon)^{\exp(-\eta^{-1}v)},\\
+    & \{F(\epsilon)^t\}' = t F(\epsilon)^{t - 1} F'(\epsilon) = t \rho(\epsilon) F(\epsilon)^{t}. 
+\end{aligned}
+$$ 
+この関係を使えば，
+$$
+\begin{aligned}
+    p_a 
+    & = \int_{-\infty}^\infty F'(\epsilon_a) \prod_{b \ne a} F(v_a - v_b + \epsilon_a) \mathrm{d}\epsilon_a 
+    \\
+    & = \int_{-\infty}^\infty \rho(\epsilon_a) F(\epsilon_a) \prod_{b \ne a} F(\epsilon_a)^{\exp(\eta^{-1}(v_b - v_a))} \mathrm{d}\epsilon_a 
+    \\
+    & = \int_{-\infty}^\infty \rho(\epsilon_a) F(\epsilon_a)^{1 + \sum_{b \ne a}\exp(\eta^{-1}(v_b - v_a))} \mathrm{d}\epsilon_a 
+    \\
+    & = \frac{1}{1 + \sum_{b \ne a}\exp(\eta^{-1}(v_b - v_a))}
+    \left[ F(\epsilon_a)^{1 + \sum_{b \ne a}\exp(\eta^{-1}(v_b - v_a))} \right]_{-\infty}^{\infty}
+    \\
+    & = \frac{\exp(\eta^{-1}v_a)}{\sum_{b \in A}\exp(\eta^{-1}v_b)}. 
+\end{aligned}
+$$ 
+
+期待最大効用 $\lambda$ については，$\hat{V} \equiv \max_{a \in A} V_a$ とすると，
+$$
+\begin{aligned} 
+    \Pr[\hat{V} \le x] 
+    & = \Pr[\epsilon_a \le x - v_a\ \forall a\in A] = \prod_{a \in A}F(x - v_a) \\
+    & = F(x)^{\sum_{a \in A} \exp(\eta^{-1} v_a)} = F(x)^{\exp(\eta^{-1} \lambda_0)}  \\
+    & = F(x - \lambda_0), 
+\end{aligned}
+$$ 
+ただし $\lambda_0 \equiv \eta \log \sum_{a \in A} \exp(\eta^{-1} v_a)$．
+すなわち，$\hat{V}$ はロケーションパラメータ $- \eta\gamma + \lambda_0$ のガンベル分布に従う．
+よって $\lambda = \mathbb{E}[\hat{V}] = - \eta \gamma + \lambda_0 + \eta\gamma = \lambda_0$．
+</div>
+</div>
