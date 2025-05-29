@@ -58,9 +58,7 @@ $$
 \lambda \equiv \mathbb{E}[\max_{a\in A} \{V_a\}] = \eta \log \sum_{a \in A} \exp\left(\eta^{-1} v_a\right)
 $$
 
-である．
-
-ロジットモデルにおいては，選択確率 $p_a$ はこの EMU の $v_a$ に関する偏微分である：
+である．選択確率 $p_a$ はこの EMU の $v_a$ に関する偏微分であることがわかる：
 
 $$
 \frac{\partial \lambda}{\partial v_a} = p_a.
