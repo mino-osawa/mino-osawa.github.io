@@ -11,8 +11,8 @@ misc:
 
 <hr>
 
-意思決定者（decision maker, DM）が，複数の選択肢からどれか一つを選ぶ状況を考える．
-選択肢の有限集合を $A$ とし，各選択肢 $a \in A$ を選んだときの効用 $V_a$ は不確実であり，次のような確率変数として表現されるとする：
+意思決定者 (decision maker, DM) が，複数の選択肢からどれか一つを選ぶ状況を考える．
+選択肢の有限集合を $A$ とする．各選択肢 $a \in A$ を選んだときの効用 $V_a$ は不確実であり，次のような確率変数として表現されるとする：
 
 $$
 V_a = v_a + \epsilon_a,
@@ -26,21 +26,25 @@ $\epsilon_a$ は選択肢間で独立同分布 (i.i.d.) であると仮定する
 $$
 \begin{aligned}
 p_a 
-& = \Pr[V_a \ge V_b\ \forall b \in A] \\
-& = \Pr[v_a + \epsilon_a \ge v_b + \epsilon_b\ \forall b \in A].
+& = \Pr[V_a \ge V_b \quad \forall b \in A] \\
+& = \Pr[v_a + \epsilon_a \ge v_b + \epsilon_b \quad  \forall b \in A].
 \end{aligned}
 $$
 
 このような枠組みは，**加法的なランダム効用モデル**  (additive random utility models, ARUM) と呼ばれる．
 
-全ての $\epsilon_a$ が微分可能な同一の累積分布関数 (c.d.f.) $F$ に独立に従っているとき，定義より選択確率 $p_a$ は以下のように表される：
+全ての $\epsilon_a$ が $E \subseteq \mathbb{R}$ に値をとる微分可能な同一の累積分布関数 (c.d.f.) $F$ に独立に従っているとき，定義より選択確率 $p_a$ は以下のように表される：
 
 $$
-p_a = \int F'(\epsilon_a) \prod_{b \ne a} F(v_a - v_b + \epsilon_a)\ \mathrm{d}\epsilon_a.
+\begin{aligned}
+p_a = \int_{\epsilon_a \in E} F'(\epsilon_a) \prod_{b \ne a} F(v_a - v_b + \epsilon_a)\ \mathrm{d}\epsilon_a.
+\end{aligned}
 $$
 
 
-各 $\epsilon_a$ がスケールパラメータ $\eta > 0$，ロケーションパラメータ $\mu = - \eta\gamma$ の **ガンベル (Gumbel) 分布**に従うと仮定する．このときの c.d.f. は
+各 $\epsilon_a$ がスケールパラメータ $\eta > 0$，ロケーションパラメータ $\mu = - \eta\gamma$ の **ガンベル (Gumbel) 分布**に従うと仮定する．
+ただし $\gamma \approx 0.5772$ はオイラー定数．
+このとき c.d.f. は
 
 $$
 F(\epsilon) = \exp\left( - \exp\left(- \eta^{-1} (\epsilon + \eta\gamma)\right) \right),
@@ -48,7 +52,6 @@ F(\epsilon) = \exp\left( - \exp\left(- \eta^{-1} (\epsilon + \eta\gamma)\right) 
 $$
 
 で与えられる．期待値は　$\mathbb{E}[\epsilon] = \mu + \eta\gamma = 0$，分散は $\operatorname{Var}[\epsilon] = \eta^2 \pi^2 / 6$ で与えられる．
-ただし $\gamma \approx 0.5772$ はオイラー定数．
 したがって，$\eta$ は不確実性の大きさを表すパラメータであり，$\eta$ が大きいほど DM の選択における確定利得 $v$ の影響は小さく，$\eta$ が小さいほど影響は大きくなる．
 
 全ての $\\{\epsilon_a\\}$ が独立に同一のガンベル分布に従うという仮定のもとでは，選択確率は次のような **ロジット選択則** (logit choice rule) になる：
@@ -63,7 +66,7 @@ $$
 \lambda \equiv \mathbb{E}[\max_{a\in A} \{V_a\}] = \eta \log \sum_{a \in A} \exp\left(\eta^{-1} v_a\right)
 $$
 
-である．選択確率 $p_a$ はこの EMU の $v_a$ に関する偏微分であることがわかる：
+である．選択確率 $p_a$ はこの EMU の $v_a$ に関する偏微分に一致することがわかる：
 
 $$
 \frac{\partial \lambda}{\partial v_a} = p_a.
