@@ -50,15 +50,14 @@
 
   .back-of-envelope {
      background: #eee; 
+     font-size: .9rem;  
 
      .boe-title {
-        font-size: .9rem;  
         padding: 0.2em 1em; 
         background: #ddd;
         font-family: "Computer Modern Serif", "Noto Sans JP", sans-serif;
      }
      .boe-conents {
-        font-size: .9rem;  
         border-top: 1px solid #ccc;
         padding: .5em 1em; 
         font-family: "Computer Modern Serif", "Noto Serif JP", sans-serif; 
