@@ -29,7 +29,7 @@ $$
 
 このような枠組みは，**加法的なランダム効用モデル**  (additive random utility models, ARUM) と呼ばれる．
 
-$\epsilon_a$ が微分可能な累積分布関数 (c.d.f.) $F$ に従う独立同分布であるとき，定義より選択確率 $p_a$ は以下のように表される：
+全ての $\epsilon_a$ が微分可能な同一の累積分布関数 (c.d.f.) $F$ に独立に従っているとき，定義より選択確率 $p_a$ は以下のように表される：
 
 $$
 p_a = \int F'(\epsilon_a) \prod_{b \ne a} F(v_a - v_b + \epsilon_a)\ \mathrm{d}\epsilon_a.
