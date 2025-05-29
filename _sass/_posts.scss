@@ -39,6 +39,14 @@
     }
   }
 
+    .math-scroll {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 0.5em 0;
+        -webkit-overflow-scrolling: touch;
+    }
+
   .back-of-envelope {
      background: #eee; 
 

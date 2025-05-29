@@ -24,7 +24,11 @@ $\epsilon_a$ は選択肢間で独立同分布 (i.i.d.) であると仮定する
 さらに，DM は確率的な意思決定（混合戦略）を行うとし，各選択肢 $a$ が利得最大となる確率で選ばれるものとする．すなわち，
 
 $$
-p_a = \Pr[V_a \ge V_b\ \forall b \in A] = \Pr[v_a + \epsilon_a \ge v_b + \epsilon_b\ \forall b \in A].
+\begin{aligned}
+p_a 
+& = \Pr[V_a \ge V_b\ \forall b \in A] \\
+& = \Pr[v_a + \epsilon_a \ge v_b + \epsilon_b\ \forall b \in A].
+\end{aligned}
 $$
 
 このような枠組みは，**加法的なランダム効用モデル**  (additive random utility models, ARUM) と呼ばれる．

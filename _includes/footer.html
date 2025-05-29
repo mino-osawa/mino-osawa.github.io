@@ -17,6 +17,19 @@
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    options: {
+        renderActions: {
+            wrapDisplay: [200, (doc) => {
+                const displayMath = document.querySelectorAll('mjx-math[display="true"]');
+                displayMath.forEach(el => {
+                const wrapper = document.createElement('div');
+                wrapper.className = 'math-scroll';
+                el.parentNode.insertBefore(wrapper, el);
+                wrapper.appendChild(el);
+                });
+            }, '']
+        }
     }
   };
 </script>
