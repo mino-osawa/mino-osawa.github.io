@@ -105,7 +105,7 @@ $$
 \end{aligned}
 $$ 
 ただし $\lambda_0 \equiv \eta \log \sum_{a \in A} \exp(\eta^{-1} v_a)$．
-すなわち，$\hat{V}$ はロケーションパラメータ $- \eta\gamma + \lambda_0$ のガンベル分布に従う．
+すなわち，$\hat{V}$ の確率分布はロケーションパラメータ $- \eta\gamma + \lambda_0$ のガンベル分布に他ならない．
 よって $\lambda = \mathbb{E}[\hat{V}] = - \eta \gamma + \lambda_0 + \eta\gamma = \lambda_0$．
 </div>
 </div>
