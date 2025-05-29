@@ -35,7 +35,8 @@ $$
 p_a = \int F'(\epsilon_a) \prod_{b \ne a} F(v_a - v_b + \epsilon_a)\ \mathrm{d}\epsilon_a.
 $$
 
-さらに，各 $\epsilon_a$ がスケールパラメータ $\eta > 0$，ロケーションパラメータ $\mu = - \eta\gamma$ の **ガンベル (Gumbel) 分布**に従うと仮定する．このときの c.d.f. は
+
+各 $\epsilon_a$ がスケールパラメータ $\eta > 0$，ロケーションパラメータ $\mu = - \eta\gamma$ の **ガンベル (Gumbel) 分布**に従うと仮定する．このときの c.d.f. は
 
 $$
 F(\epsilon) = \exp\left( - \exp\left(- \eta^{-1} (\epsilon + \eta\gamma)\right) \right),
