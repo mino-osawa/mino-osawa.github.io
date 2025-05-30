@@ -70,8 +70,8 @@ Ordered by my preference. Please see <a href="https://orcid.org/0000-0001-9067-5
 <h3>Working Papers</h3>
 
 <ul class="ref-list">
-<li>On sampling dynamics</li>
-<li>Understanding regional dynamics</li>
+<li>On sampling dynamics (WIP)</li>
+<li>Understanding regional dynamics (WIP)</li>
 <li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (with José Maria Gaspar)</li>
 
 <li><a href="https://arxiv.org/abs/2012.12503">Cities in a world of diminishing transport costs</a> (with Tomoya Mori)</li>
