@@ -6,7 +6,7 @@ categories: RUMs
 misc: 
 ---
 
-## ノイズのない最適応答
+## 混合最適応答
 
 ここで，改めて決定論的なアプローチを考えてみよう．引き続き，選択肢 $a \in A$ と対応する利得 $v = (v_a)_{a\in A}$ が与えられているとする．意思決定者の問題は，以下の線形最適化問題を解くことによって利得を最大化する混合戦略を決定することだとしよう：
 
@@ -14,7 +14,7 @@ $$
 \max_{y \in \Delta} \quad \langle v, y \rangle
 $$
 
-ここで，$\Delta \equiv  \{ y \ge \mathbf{0} \mid \sum_{a \in A} y_a = 1 \}$ は確率単体 (probability simplex) を表し，$\langle x, y \rangle$ は $x$ と $y$ の内積を意味する．
+ここで，$\Delta \equiv  \\{ y \ge \mathbf{0} \mid \sum_{a \in A} y_a = 1 \\}$ は確率単体 (probability simplex) を表し，$\langle v, y \rangle = \sum v_a y_a $ は $v$ と $y$ の内積を意味する．
 
 この問題の解 $y^\star$ は，次の条件を満たさなければならない：
 
@@ -41,14 +41,14 @@ $$
 \lambda \ge v_a \quad \forall a \in A．
 $$
 
-この問題は，DM が達成可能なペイオフに対する最良の上界（=最小の上界）を得ることを目的としている．明らかに，この問題の解および最適値は $\lambda^\star = \max_{a \in A} v_a$ であり，これは当初の最適化問題の最適値と一致する（=線形最適化における **強双対性** (strong duality)）．
+この問題は，DM が達成可能な利得に対する最良の上界（=最小の上界）を得ることを目的としている．明らかに，この問題の解および最適値は $\lambda^\star = \max_{a \in A} v_a$ であり，これは当初の最適化問題の最適値と一致する（=線形最適化における **強双対性** (strong duality)）．
 
 
 
 <div class="back-of-envelope">
 <div class="boe-title">最適応答の双対問題の導出</div>
 <div class="boe-conents">
-まず，$\lambda$を制約$\sum_{a\in A} y_a = 1$に対する Lagrange 乗数としよう．Lagrange 関数は
+まず，$\lambda$を制約 $\sum_{a\in A} y_a = 1$ に対する Lagrange 乗数としよう．Lagrange 関数は
 $$
 \begin{aligned}
     L(y, \lambda) 
@@ -56,7 +56,7 @@ $$
     = - \langle \lambda\boldsymbol 1 - v, y \rangle +\lambda
 \end{aligned}
 $$
-ただし $y \ge 0$．
+ただし $y \ge\boldsymbol 0$．
 Lagrange 双対問題は以下の目的関数を最小化する問題であるから，上述の双対問題を得る：
 \begin{align}
     \omega(\lambda) 
@@ -111,7 +111,7 @@ $$
 \frac{\partial \lambda(v)}{\partial v_a} = \frac{\exp(\eta^{-1} v_a)}{\sum_{b\in A} \exp(\eta^{-1} v_b)} = p_a．
 $$
 
-すなわち，関数 $\lambda(v)$ は選好ベクトル $v$ に関する滑らかな関数であり，その勾配はロジット確率に一致する．最適値関数 $\lambda(v)$ は，定義より関数 $H$ の**凸共役** (convex conjugate) あるいは Legendre変換に他ならず，この事実が $p_a$ の $\lambda(v)$ の勾配としての表現にもつながっている．実際，この関係は凸最適化において一般的に現れるものであり，ロジットモデル以外のモデルでも最適値関数の勾配が選択確率として表現されることがある．
+すなわち，関数 $\lambda(v)$ は利得ベクトル $v$ に関する滑らかな関数であり，その勾配はロジット確率に一致する．最適値関数 $\lambda(v)$ は，定義より関数 $H$ の**凸共役** (convex conjugate) あるいは Legendre変換に他ならず，この事実が $p_a$ の $\lambda(v)$ の勾配としての表現にもつながっている．実際，この関係は凸最適化において一般的に現れるものであり，ロジットモデル以外のモデルでも最適値関数の勾配が選択確率として表現されることがある．
 
 正則化付き問題の **ラグランジュ双対問題** は次のように表される：
 
@@ -152,7 +152,7 @@ $$
 \end{aligned}
 $$
 
-であり，これを用いると既にみたロジット選択則を得る．また，$\sup_{y \ge 0} L(y,\lambda) = \lambda^* + \eta$ であり，実際には既に $\lambda$ について解けた形で双対問題 $\min_{\lambda} \lambda^\star + \eta$ が得られる．Lagrange 乗数 $\lambda^\star$ が定数分だけ確率的選択の文脈の MEU とずれるのが気になる場合は $H(y)$ の定義を微修正すればよいが，選択確率と最適値には影響しない．
+であり，これを用いると既にみたロジット選択則を得る．また，$\sup_{y \ge 0} L(y,\lambda) = \lambda^\star + \eta$ であり，実際には既に $\lambda$ について解けた形で双対問題が得られる．Lagrange 乗数 $\lambda^\star$ が定数分だけ確率的選択の文脈の MEU とずれるのが気になる場合は $H(y)$ の定義を微修正すればよいが，選択確率と最適値には影響しない．
 </div>
 </div>
 

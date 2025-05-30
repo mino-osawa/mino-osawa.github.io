@@ -1,4 +1,7 @@
 /* === 投稿（記事）スタイル === */
+$FSize-1: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem); 
+$FSize-2: clamp(0.8rem, calc(0.6718rem + 0.6838vw), 1rem); 
+
 .post-info {
   margin: 0 0 1.5em 0;
 }
@@ -25,6 +28,7 @@
   border-bottom: 1px solid #eee;
 
   h2 {
+    font-size: clamp(1.2rem, 4vw, 1.6rem);
     margin-top: 1em;
   }
   p {
@@ -39,10 +43,15 @@
 
     @media (max-width: 768px) {
         max-width: 44rem;
-        font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem); 
+        font-size: $FSize-1; 
     }
   }
 
+    .mjx-math {
+        @media (max-width: 768px) {
+            font-size: $FSize-1; 
+        } 
+    } 
     .math-scroll {
         overflow-x: auto;
         overflow-y: hidden;
@@ -50,8 +59,8 @@
         padding: 0.5em 0;
         -webkit-overflow-scrolling: touch;
         @media (max-width: 768px) {
-            font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem); 
-        }
+            font-size: $FSize-1; 
+        } 
     }
 
   .back-of-envelope {
@@ -72,7 +81,11 @@
      }
     
      @media (max-width: 768px) {
-        font-size: clamp(0.8rem, calc(0.6718rem + 0.6838vw), 1rem); 
+        font-size: $FSize-2; 
+
+        .math-scroll, .mjx-math {
+            font-size: $FSize-2; 
+        }
      }
   }
 
@@ -86,7 +99,7 @@
     code { font-size: .9rem; }
 
     @media (max-width: 768px) {
-        font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem); 
+        font-size: $FSize-1; 
     }
   }
 }
@@ -115,7 +128,7 @@
     
   @media (max-width: 768px) {
         .prev-post, .next-post { 
-            font-size: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem);  
+            font-size: $FSize-1;  
         }
   }
 }
