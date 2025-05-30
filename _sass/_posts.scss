@@ -24,7 +24,11 @@
   margin: 0 auto;
   border-bottom: 1px solid #eee;
 
+  h2 {
+    margin-top: 1em;
+  }
   p {
+
     font-family: "Computer Modern Serif", "Noto Serif JP", sans-serif;
     text-align: justify;
     text-justify: inter-ideograph;
@@ -53,6 +57,7 @@
   .back-of-envelope {
      background: #eee; 
      font-size: 1rem;  
+     margin-bottom: 1em; 
 
      .boe-title {
         padding: 0.2em 1em; 

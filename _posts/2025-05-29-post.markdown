@@ -2,7 +2,7 @@
 layout: post
 title: Logit (1)：ARUMとロジット選択
 running_head: Logit (1)
-categories: RUM
+categories: RUMs
 misc: 
 ---
 
