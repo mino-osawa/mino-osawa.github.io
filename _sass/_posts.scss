@@ -21,31 +21,28 @@ $FSize-2: clamp(0.8rem, calc(0.6718rem + 0.6838vw), 1rem);
 }
 
 .post-content {
-  width: 100%; 
-  max-width: 44rem;
-  padding: 1rem 0;
-  margin: 0 auto;
-  border-bottom: 1px solid #eee;
+    width: 100%; 
+    max-width: 44rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
 
-  h2 {
-    font-size: clamp(1.2rem, 4vw, 1.6rem);
-    margin-top: 1em;
-  }
-  p {
-
-    font-family: "Computer Modern Serif", "Noto Serif JP", sans-serif;
-    text-align: justify;
-    text-justify: inter-ideograph;
-
-    strong {
-        font-family: "Computer Modern Serif", "Noto Sans JP", sans-serif; 
+    h2 {
+        font-size: clamp(1.2rem, 4vw, 1.6rem);
+        margin-top: 1em;
     }
-
-    @media (max-width: 768px) {
-        max-width: 44rem;
-        font-size: $FSize-1; 
+    p, ul, ol {
+        font-family: "Computer Modern Serif", "Noto Serif JP", sans-serif;
+        text-align: justify;
+        text-justify: inter-ideograph;
+        strong {
+            font-family: "Computer Modern Serif", "Noto Sans JP", sans-serif; 
+        }
+        @media (max-width: 768px) {
+            max-width: 44rem;
+            font-size: $FSize-1; 
+        }
     }
-  }
 
     .mjx-math {
         @media (max-width: 768px) {
