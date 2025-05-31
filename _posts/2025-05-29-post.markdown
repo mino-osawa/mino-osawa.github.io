@@ -6,7 +6,7 @@ categories: RUMs
 misc: 
 ---
 
-ロジット (oogit) モデルと摂動付き最適化 (perturbed optimization) とのよく知られた関係について簡潔にまとめる．内容は [別のメモ](/notes/N2412_logit.pdf) とほぼ同一である．
+ロジット (logit) モデルと摂動付き最適化 (perturbed optimization) とのよく知られた関係について簡潔にまとめる．内容は [別のメモ](/notes/N2412_logit.pdf) とほぼ同一である．
 
 <hr>
 
