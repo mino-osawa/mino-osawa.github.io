@@ -1,0 +1,19 @@
+urban-economics:
+  abbrev: UEcon
+  ja: 都市経済学
+
+transport-economics:
+  abbrev: TEcon
+  ja: 交通経済学
+
+transport-engineering:
+  abbrev: TEng
+  ja: 交通工学
+
+macro-theory:
+  abbrev: Macro
+  ja: マクロ理論
+
+rum:
+  abbrev: RUM
+  ja: ランダム効用理論

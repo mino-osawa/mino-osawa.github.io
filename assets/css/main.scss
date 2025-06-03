@@ -126,6 +126,16 @@ p {
   width: 100%;
   max-width: 48rem; // または同様の制限幅
   margin: 0 auto;
+  @media (max-width: 768px) {
+      font-size: $FSize-1; 
+  }
+}
+.posts-description {
+    margin: 0 0 2em 0;
+    text-align: center; 
+    @media (max-width: 768px) {
+        text-align: left;
+    }
 }
 
 .posts-header {

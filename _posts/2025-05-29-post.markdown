@@ -2,7 +2,7 @@
 layout: post
 title: ロジットモデルと最適化
 running_head: Logit 
-categories: RUMs
+categories: rum
 misc: 
 ---
 
