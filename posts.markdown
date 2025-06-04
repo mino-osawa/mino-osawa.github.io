@@ -7,7 +7,7 @@ permalink: /posts/
 <div class="posts-container">
 <h1 class="posts-header">Posts</h1>
 
-<div class="posts-description">もろもろのメモ書きです．</div>
+<div class="posts-description">雑感・学生さん向け解説記事など，もろもろのメモ書きです．</div>
 
 <!-- 記事がもし増えてきたら追加する．
 {% for category in site.categories %}
