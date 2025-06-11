@@ -6,7 +6,7 @@ permalink: "/teaching/"
 
 <h1>Teaching</h1>
 
-予め <a href="/policies/#disclaimer">免責事項</a> をご覧ください．
+<a href="/policies/#disclaimer">免責事項</a>
 
 <hr>
 
