@@ -33,8 +33,4 @@ permalink: /posts/
 {% endfor %}
 </ul>
 
-<p style="text-align:center;"><a href="/feed.xml" target="_blank" style="text-decoration:none">
-  <img src="/assets/img/rss.png" alt="RSS Feed" style="height: 1rem; vertical-align: middle;">
-</a></p>
-
 </div>
