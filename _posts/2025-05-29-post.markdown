@@ -294,7 +294,7 @@ $$
 - [Anderson, S. P., de Palma, A., and Thisse, J. F. (1992).](https://direct.mit.edu/books/monograph/3893/Discrete-Choice-Theory-of-Product-Differentiation) *Discrete Choice Theory of Product Differentiation*. MIT Press.
 - [Fosgerau, M., Melo, E., de Palma, A., and Shum, M. (2020).](https://onlinelibrary.wiley.com/doi/full/10.1111/iere.12469) "Discrete choice and rational inattention: A general equivalence result." *International Economic Review*, 61(4), 1569–1589. 
 - [Fudenberg, D., Iijima, R., and Strzalecki, T. (2015).](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12660) "Stochastic choice and revealed perturbed utility." *Econometrica*, 83(6), 2371–2409. 
-- [Hofbauer, J. and Sandholm, W. H. (2002)](https://www.sciencedirect.com/science/article/abs/pii/S0022053105001754). "On the global convergence of stochastic fictitious play." *Econometrica*, 70(6), 2265–2294. 
+- [Hofbauer, J. and Sandholm, W. H. (2002)](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0262.2002.00440.x). "On the global convergence of stochastic fictitious play." *Econometrica*, 70(6), 2265–2294. 
 - [Hofbauer, J. and Sandholm, W. H. (2007).](https://www.sciencedirect.com/science/article/abs/pii/S0022053105001754) "Evolution in games with randomly disturbed payoffs." *Journal of Economic Theory*, 132(1), 47–69. 
 - [土木学会 (1998).](https://www.jsce.or.jp/publication/detail/detail.asp?id=966) 『交通ネットワークの均衡分析：最新の理論と解法』. 土木学会出版．（残念ながら絶版）
 - [福田・城間 (2023)](https://www.jstage.jst.go.jp/article/jscejipm/78/5/78_I_1/_article/-char/ja/). 離散選択モデル研究の最近の展開––異質性と摂動性の観点から––. 土木学会論文集 D3 (土木計画学), 78(5), I1-I20.
