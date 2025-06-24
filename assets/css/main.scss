@@ -400,11 +400,6 @@ p {
     }
   }
 }
-
-.em {
-    font-family: 'Monaco', monospace; 
-    font-size: 95%; 
-}
 .em::before, .loc::before, .twt::before, .lnks::before {
   content: "";
   display: inline-block;
