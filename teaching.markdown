@@ -29,7 +29,7 @@ permalink: "/teaching/"
 <li><a href="/notes/transport/TE25-06_Travel-Cost.pdf">交通費用の生産者理論</a></li>
 <li><a href="/notes/transport/TE25-07_Highway-Travel.pdf">道路交通と混雑・渋滞課金</a></li>
 <li><a href="/notes/transport/TE25-08_Benefits.pdf">便益評価の話題</a></li>
-<li>公共交通とその料金設定</li>
+<li><a href="/notes/transport/TE25-09_Pricing-Public-Transport.pdf">公共交通とその料金設定</a></li>
 <li>交通投資</li>
 <li>立地と交通</li>
 </ol>
