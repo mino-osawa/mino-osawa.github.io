@@ -28,10 +28,12 @@ permalink: "/teaching/"
 <li><a href="/notes/transport/TE25-05_RUM-Project.pdf">非集計行動分析の実行</a></li>
 <li><a href="/notes/transport/TE25-06_Travel-Cost.pdf">交通費用の生産者理論</a></li>
 <li><a href="/notes/transport/TE25-07_Highway-Travel.pdf">道路交通と混雑・渋滞課金</a></li>
-<li><a href="/notes/transport/TE25-08_Benefits.pdf">便益評価の話題</a></li>
+<li><a href="/notes/transport/TE25-08_Benefits.pdf">消費者便益の指標</a></li>
 <li><a href="/notes/transport/TE25-09_Pricing-Public-Transport.pdf">公共交通とその料金設定</a></li>
-<li>交通投資</li>
-<li>立地と交通</li>
+<li>規制政策</li>
+<li>交通投資と自給原理</li>
+<li>通勤交通と都市内土地利用</li>
+<li>大規模交通インフラと地域経済</li>
 </ol>
 
 <hr>
