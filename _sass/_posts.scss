@@ -129,3 +129,21 @@ $FSize-2: clamp(0.8rem, calc(0.6718rem + 0.6838vw), 1rem);
         }
   }
 }
+
+.post-footer {
+  max-width: 44rem;
+  padding: 1rem 0;
+  margin: 0 auto;
+  text-align: right;
+  font-size: smaller;
+
+  a {
+    color: #aaa;
+    display: inline-block;
+    padding: 0.6em 0;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

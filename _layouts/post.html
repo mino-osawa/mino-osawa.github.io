@@ -27,4 +27,11 @@ layout: default
         <span class="next-post"></span>
         {% endif %}
     </div>
+    <div class="post-footer">
+        <p>
+        <a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title={{ page.title | url_encode }}&body=対象記事：{{ site.url }}{{ page.url | url_encode }}" target="_blank">
+        この投稿について誤り等を報告（要 GitHub アカウント）
+        </a>
+        </p>
+    </div>
 </div>
