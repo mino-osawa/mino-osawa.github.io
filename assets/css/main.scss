@@ -178,11 +178,12 @@ p {
 
   a {
     text-decoration: none;
-    color: #888;
+    color: #aaa;
     font-weight: bold;
 
     &.active {
       color: #000;
+      text-decoration: underline;
     }
   }
 
