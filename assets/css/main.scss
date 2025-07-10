@@ -363,7 +363,7 @@ p {
   border: 1px solid #ddd;
 
   @media (max-width: 768px) {
-    width: clamp(13rem, calc(10.857rem + 10.71vw), 16rem);
+    width: clamp(13rem, calc(10.857rem + 10.71vw), 18rem);
     height: auto;
   }
 }
