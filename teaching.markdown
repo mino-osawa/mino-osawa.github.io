@@ -80,4 +80,4 @@ permalink: "/teaching/"
 
 <hr>
 
-<p><a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank" style="font-size:smaller;">資料の誤り等を報告（要 GitHub アカウント）</a></p>
+<p><a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">資料の誤り等を報告（要 GitHub アカウント）</a></p>
