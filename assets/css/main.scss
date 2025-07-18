@@ -261,6 +261,12 @@ p {
   font-size: 1.5em;
 }
 
+br.wide {
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
 /* === フッター === */
 .site-footer {
   background-color: #f0f0f0;
