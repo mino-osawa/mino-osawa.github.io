@@ -32,7 +32,7 @@ permalink: "/teaching/"
 <li><a href="/notes/transport/TE25-09_Pricing-Public-Transport.pdf">公共交通とその料金設定</a></li>
 <li><a href="/notes/transport/TE25-10_Regulation.pdf">規制政策</a></li>
 <li><a href="/notes/transport/TE25-11_Transport-Investment.pdf">交通投資とパラドックス</a></li>
-<li>交通と都市・地域経済</li>
+<li><a href="/notes/transport/TE25-12_WEIs.pdf">交通と都市・地域経済</a></li>
 </ol>
 
 <hr>
