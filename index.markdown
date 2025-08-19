@@ -54,13 +54,14 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 <h3>Working Papers</h3>
 
 <ul class="ref-list">
-<li>On sampling dynamics (WIP)</li>
+<li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability</a>  (with Takashi Akamatsu and Yosuke Kogure) <span class="red-like">Updated: August 5, 2025</span></li>
+
 <li>Understanding regional dynamics (WIP)</li>
+<li>On sampling dynamics (WIP)</li>
 <li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (with José Maria Gaspar)</li>
 
 <li><a href="https://arxiv.org/abs/2012.12503">Cities in a world of diminishing transport costs</a> (with Tomoya Mori)</li>
 
-<li><a href="https://arxiv.org/abs/2011.06778">Stochastic stability of endogenous agglomeration patterns in an urban retail mode</a>  (with Takashi Akamatsu and Yosuke Kogure)</li>
 
 <li><a href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (with José Maria Gaspar)</li>
 </ul>
