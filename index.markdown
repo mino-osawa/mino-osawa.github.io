@@ -54,7 +54,7 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 <h3>Working Papers</h3>
 
 <ul class="ref-list">
-<li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability</a>  (with Takashi Akamatsu and Yosuke Kogure) <span class="red-like">Updated: August 5, 2025</span></li>
+<li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability of spatial equilibria</a>  (with Takashi Akamatsu and Yosuke Kogure) <span class="red-like">Updated: August 5, 2025</span></li>
 
 <li>Understanding regional dynamics (WIP)</li>
 <li>On sampling dynamics (WIP)</li>
