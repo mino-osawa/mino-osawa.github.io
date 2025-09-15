@@ -15,8 +15,8 @@ title: M.Osawa's Website
     <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a><br>(with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">PDF</a>] <span class="red-like">Updated: July 4, 2025</span>
     <div class="note">Previous versions: 
     <ul class="ref-prev">
-        <li><a href="https://www.rieti.go.jp/jp/publications/summary/17120005.html" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a</a>: "Spatial Scale of Agglomeration and Dispersion: Theoretical foundations and empirical implications"</li>
-        <li><a href="https://mpra.ub.uni-muenchen.de/97496/" alt="Endogenous agglomeration in a many-region world">2017b</a>: "Endogenous agglomeration in a many-region world"</li>
+        <li><a href="https://www.rieti.go.jp/jp/publications/dp/17e125.pdf" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a (PDF)</a>: "Spatial Scale of Agglomeration and Dispersion: Theoretical foundations and empirical implications"</li>
+        <li><a href="https://mpra.ub.uni-muenchen.de/97496/1/MPRA_paper_97496.pdf" alt="Endogenous agglomeration in a many-region world">2017b (PDF)</a>: "Endogenous agglomeration in a many-region world"</li>
     </ul>
     </div>
     </li>
