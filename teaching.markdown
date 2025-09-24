@@ -42,12 +42,16 @@ permalink: "/teaching/"
   <div class="en">Variational Inequalities and Economic Equilibrium Problems</div>
 </div>
 <div class="course-info">
-京都大学：2021後期, 2022後期, 2023後期, 2024後期
+京都大学：2021後期, 2022後期, 2023後期, 2024後期, 2025後期
 </div>
 
 <ol start="0">
-<li><a href="/notes/vip/24-00_Orientation.pdf">講義概要</a></li>
-<li><a href="/notes/vip/24-01_Opt-Basics.pdf">最適化概論</a></li>
+<li><a href="/notes/vip/VI25-00_Orientation.pdf">講義概要</a></li>
+<li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
+</ol>
+
+【参考】以下は 2024 年度の資料です．アップデートしつつ同様の内容で講義予定です．
+<ol start="2">
 <li><a href="/notes/vip/24-02_Opt-LP.pdf">線形最適化問題</a></li>
 <li><a href="/notes/vip/24-03_Opt-NLP.pdf">非線形最適化問題</a></li>
 <li><a href="/notes/vip/24-04_VIP.pdf">変分不等式問題</a></li>
