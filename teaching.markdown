@@ -45,12 +45,17 @@ permalink: "/teaching/"
 京都大学：2021後期, 2022後期, 2023後期, 2024後期, 2025後期
 </div>
 
+<ul>
+<li>水曜5限 16:45-18:15 @ 経済研究所 第二共同研究室 (105)</li>
+<li>10/15(水) は月曜日授業の振り替え日のため講義はありません．</li>
+</ul>
+
 <ol start="0">
 <li><a href="/notes/vip/VI25-00_Orientation.pdf">講義概要</a></li>
 <li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
 </ol>
 
-【参考】以下は 2024 年度の資料です．アップデートしつつ同様の内容で講義予定です．
+【参考】以下は 2024 年度の資料です．アップデートしつつ同様の内容を講義予定です．
 <ol start="2">
 <li><a href="/notes/vip/24-02_Opt-LP.pdf">線形最適化問題</a></li>
 <li><a href="/notes/vip/24-03_Opt-NLP.pdf">非線形最適化問題</a></li>
