@@ -10,7 +10,7 @@ permalink: "/teaching/"
 
 <hr>
 
-<div class="title-block">
+<div class="title-block" id="tr">
   <h2 class="jp">交通経済学</h2>
   <div class="en">Transportation Economics</div>
 </div>
@@ -37,7 +37,7 @@ permalink: "/teaching/"
 
 <hr>
 
-<div class="title-block">
+<div class="title-block" id="vi">
   <h2 class="jp">均衡分析と数理最適化</h2>
   <div class="en">Variational Inequalities and Economic Equilibrium Problems</div>
 </div>
@@ -68,7 +68,7 @@ permalink: "/teaching/"
 
 <hr>
 
-<div class="title-block">
+<div class="title-block" id="ur">
   <h2 class="jp">都市経済学</h2>
   <div class="en">Urban Economics</div>
 </div>
