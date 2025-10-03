@@ -22,9 +22,14 @@ title: M.Osawa's Website
     </li>
     <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a><br> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">PDF</a>]
     </li>
-    <li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>] (WIP)
-    </li>
-    <li>Understanding regional dynamics [<a href="notes/draft/RD.pdf">PDF</a>] (WIP)</li>
+</ul>
+
+
+<h3>Work in progress</h3>
+
+<ul class="ref-list">
+    <li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>]</li>
+    <li>Understanding regional dynamics [<a href="notes/draft/RD.pdf">PDF</a>]</li>
 </ul>
 
 <h3>Publications</h3>
