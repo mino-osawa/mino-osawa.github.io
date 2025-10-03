@@ -28,8 +28,8 @@ title: M.Osawa's Website
 <h3>Work in progress</h3>
 
 <ul class="ref-list">
-    <li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>]</li>
     <li>Understanding regional dynamics [<a href="notes/draft/RD.pdf">PDF</a>] [<a href="notes/draft/RD_slides.pdf">Slides</a>]</li>
+    <li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>]</li>
 </ul>
 
 <h3>Publications</h3>
