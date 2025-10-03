@@ -106,7 +106,7 @@ a {
     font-weight: bold;
   }
 
-  &[href$=".pdf"] {
+  &[href$=".pdf"]:not(.ref-list a[href$=".pdf"]) {
     color: $color-konpeki;
   }
 
