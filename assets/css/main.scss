@@ -101,7 +101,7 @@ a {
   color: #000; 
   font-weight: 500;
 
-  &[href*="pdf/"], &[href*="drive.google.com"] {
+  &[href*="pdf/"], &[href*="drive.google.com"], &[href*="draft/"] {
     color: blue;
     font-weight: bold;
   }

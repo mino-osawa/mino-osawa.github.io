@@ -22,8 +22,9 @@ title: M.Osawa's Website
     </li>
     <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a><br> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">PDF</a>]
     </li>
-    <li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>]
+    <li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>] (WIP)
     </li>
+    <li>Understanding regional dynamics [<a href="notes/draft/RD.pdf">PDF</a>] (WIP)</li>
 </ul>
 
 <h3>Publications</h3>
@@ -58,8 +59,6 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 <ul class="ref-list">
 <li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability of spatial equilibria</a>  (with Takashi Akamatsu and Yosuke Kogure) <span class="red-like">Updated: August 5, 2025</span></li>
 
-<li>Understanding regional dynamics (WIP)</li>
-<li>On sampling dynamics (WIP)</li>
 <li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (with José Maria Gaspar)</li>
 
 <li><a href="https://arxiv.org/abs/2012.12503">Cities in a world of diminishing transport costs</a> (with Tomoya Mori)</li>
