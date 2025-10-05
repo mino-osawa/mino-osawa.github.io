@@ -24,14 +24,6 @@ title: M.Osawa's Website
     </li>
 </ul>
 
-
-<h3>Work in progress</h3>
-
-<ul class="ref-list">
-    <li>Understanding regional dynamics [<a href="notes/draft/RD.pdf">PDF</a>] [<a href="notes/draft/RD_slides.pdf">Slides</a>]</li>
-    <li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>]</li>
-</ul>
-
 <h3>Publications</h3>
 
 Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_blank">Google Scholar</a> for a chronological list. 
@@ -62,6 +54,11 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 <h3>Working Papers</h3>
 
 <ul class="ref-list">
+
+<li>Understanding regional dynamics [<a href="notes/draft/RD.pdf">PDF</a>] [<a href="notes/draft/RD_slides.pdf">Slides</a>]</li>
+
+<li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>]</li>
+
 <li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability of spatial equilibria</a>  (with Takashi Akamatsu and Yosuke Kogure) <span class="red-like">Updated: August 5, 2025</span></li>
 
 <li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (with José Maria Gaspar)</li>
