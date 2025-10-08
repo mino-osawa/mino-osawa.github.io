@@ -53,11 +53,11 @@ permalink: "/teaching/"
 <ol start="0">
 <li><a href="/notes/vip/VI25-00_Orientation.pdf">講義概要</a></li>
 <li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
+<li><a href="/notes/vip/VI25-02_LP.pdf">線形最適化問題</a></li>
 </ol>
 
 【参考】以下は 2024 年度の資料です．アップデートしつつ同様の内容を講義予定です．
 <ol start="2">
-<li><a href="/notes/vip/24-02_Opt-LP.pdf">線形最適化問題</a></li>
 <li><a href="/notes/vip/24-03_Opt-NLP.pdf">非線形最適化問題</a></li>
 <li><a href="/notes/vip/24-04_VIP.pdf">変分不等式問題</a></li>
 <li><a href="/notes/vip/24-05_PG.pdf">集団ゲーム</a></li>
