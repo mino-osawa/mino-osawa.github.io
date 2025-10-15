@@ -8,32 +8,6 @@ permalink: "/teaching/"
 
 <p><a href="/policies/#disclaimer">免責事項</a></p>
 
-<hr>
-
-<div class="title-block" id="tr">
-  <h2 class="jp">交通経済学</h2>
-  <div class="en">Transportation Economics</div>
-</div>
-<div class="course-info">
-京都大学：2025前期
-</div>
-
-<ol start="0">
-<li><a href="/notes/transport/TE25-00_Syllabus.pdf">シラバス</a></li>
-<li><a href="/notes/transport/TE25-00_Introduction.pdf">講義概要</a></li>
-<li><a href="/notes/transport/TE25-01_Travel-Demand.pdf">交通需要予測</a></li>
-<li><a href="/notes/transport/TE25-02_MNL.pdf">多項ロジットモデル</a></li>
-<li><a href="/notes/transport/TE25-03_MEV.pdf">多変量極値分布モデル</a></li>
-<li><a href="/notes/transport/TE25-04_Estimation.pdf">推定・評価・予測・応用</a></li>
-<li><a href="/notes/transport/TE25-05_RUM-Project.pdf">非集計行動分析の実行</a></li>
-<li><a href="/notes/transport/TE25-06_Travel-Cost.pdf">交通費用の生産者理論</a></li>
-<li><a href="/notes/transport/TE25-07_Highway-Travel.pdf">道路交通と混雑・渋滞課金</a></li>
-<li><a href="/notes/transport/TE25-08_Benefits.pdf">消費者便益の指標</a></li>
-<li><a href="/notes/transport/TE25-09_Pricing-Public-Transport.pdf">公共交通とその料金設定</a></li>
-<li><a href="/notes/transport/TE25-10_Regulation.pdf">規制政策</a></li>
-<li><a href="/notes/transport/TE25-11_Transport-Investment.pdf">交通投資とパラドックス</a></li>
-<li><a href="/notes/transport/TE25-12_WEIs.pdf">交通と都市・地域経済</a></li>
-</ol>
 
 <hr>
 
@@ -64,6 +38,33 @@ permalink: "/teaching/"
 <li><a href="/notes/vip/24-06_Congestion.pdf">混雑ゲーム</a></li>
 <li><a href="/notes/vip/24-07_Urban.pdf">都市モデル</a></li>
 <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
+</ol>
+
+<hr>
+
+<div class="title-block" id="tr">
+  <h2 class="jp">交通経済学</h2>
+  <div class="en">Transportation Economics</div>
+</div>
+<div class="course-info">
+京都大学：2025前期
+</div>
+
+<ol start="0">
+<li><a href="/notes/transport/TE25-00_Syllabus.pdf">シラバス</a></li>
+<li><a href="/notes/transport/TE25-00_Introduction.pdf">講義概要</a></li>
+<li><a href="/notes/transport/TE25-01_Travel-Demand.pdf">交通需要予測</a></li>
+<li><a href="/notes/transport/TE25-02_MNL.pdf">多項ロジットモデル</a></li>
+<li><a href="/notes/transport/TE25-03_MEV.pdf">多変量極値分布モデル</a></li>
+<li><a href="/notes/transport/TE25-04_Estimation.pdf">推定・評価・予測・応用</a></li>
+<li><a href="/notes/transport/TE25-05_RUM-Project.pdf">非集計行動分析の実行</a></li>
+<li><a href="/notes/transport/TE25-06_Travel-Cost.pdf">交通費用の生産者理論</a></li>
+<li><a href="/notes/transport/TE25-07_Highway-Travel.pdf">道路交通と混雑・渋滞課金</a></li>
+<li><a href="/notes/transport/TE25-08_Benefits.pdf">消費者便益の指標</a></li>
+<li><a href="/notes/transport/TE25-09_Pricing-Public-Transport.pdf">公共交通とその料金設定</a></li>
+<li><a href="/notes/transport/TE25-10_Regulation.pdf">規制政策</a></li>
+<li><a href="/notes/transport/TE25-11_Transport-Investment.pdf">交通投資とパラドックス</a></li>
+<li><a href="/notes/transport/TE25-12_WEIs.pdf">交通と都市・地域経済</a></li>
 </ol>
 
 <hr>
