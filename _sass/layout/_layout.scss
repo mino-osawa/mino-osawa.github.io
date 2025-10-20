@@ -18,20 +18,21 @@
 }
 
 @media (min-width: 1500px) {
-  html {
+    html {
     background: linear-gradient(
-      to right,
-      #fafafa,
-      #ffffff 40%,
-      #ffffff 60%,
-      #fafafa
+        to right,
+        #f5f5f5,
+        #fafafa 40%,
+        #fafafa 60%,
+        #f5f5f5
     );
-  }
+    }
 
   .page-wrapper {
     margin: 0 auto;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    box-shadow: 0px 0px 5px #aaa;
   }
 }
 
