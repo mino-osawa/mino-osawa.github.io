@@ -1,0 +1,56 @@
+/* === レイアウト === */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+  max-width: 94rem;
+  margin: 0 auto;
+}
+
+.page-content {
+  flex: 1;
+  padding: 0 2.5rem 2em 2.5rem;
+
+  @media (max-width: 600px) {
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  html {
+    background: linear-gradient(
+      to right,
+      #fafafa,
+      #ffffff 40%,
+      #ffffff 60%,
+      #fafafa
+    );
+  }
+
+  .page-wrapper {
+    margin: 0 auto;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+}
+
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .jp {
+    margin: 0;
+  }
+
+  .en {
+    font-size: clamp(1.1rem, 1.5vw, 1.2rem);
+    color: #333;
+    font-family: "Computer Modern Typewriter", sans-serif;
+  }
+}
+
+.course-info {
+  margin: 0.83em 0 0 0;
+}

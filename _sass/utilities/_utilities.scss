@@ -1,0 +1,32 @@
+/* === ユーティリティ === */
+.Eetae3eo,
+.Oome0Ma0,
+.moeJeo1u,
+.fii2Eith,
+.Thae3jah,
+.kei2loP9,
+.Moi8yei1,
+.eh3Noo1C,
+.Tho2ail2,
+.Hoo9Phie {
+  display: none;
+}
+
+.red-like {
+  color: $color-akani;
+}
+
+.note,
+.note a {
+  color: #777;
+}
+
+.duration {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sep::before {
+    color: #bbb;
+  }
+}

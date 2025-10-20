@@ -12,7 +12,7 @@ title: M.Osawa's Website
 <h3>Selected Discussion Papers</h3>
 
 <ul class="ref-list">
-    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a><br>(with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">PDF</a>]
+    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (2025)<br>(with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">paper</a>]
     <div class="note">Previous versions: 
     <ul class="ref-prev">
         <li><a href="https://www.rieti.go.jp/jp/publications/dp/17e125.pdf" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a (PDF)</a>: "Spatial Scale of Agglomeration and Dispersion: Theoretical foundations and empirical implications"</li>
@@ -20,7 +20,7 @@ title: M.Osawa's Website
     </ul>
     </div>
     </li>
-    <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a><br> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">PDF</a>]
+    <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (2023)<br> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">paper</a>]
     </li>
 </ul>
 
@@ -33,7 +33,7 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
     <li>
       <a href="{{ paper.url }}" class="paper-title">{{ paper.title }}</a> <br>
       <span class="red-like">{{ paper.journal }}</span> ({{ paper.year }}) 
-      {% if paper.pdf %}[<a href="{{ paper.pdf }}">PDF</a>]{% endif %}
+      {% if paper.pdf %}[<a href="{{ paper.pdf }}">paper</a>]{% endif %}
       {% if paper.coauthors %}<br>(with {{ paper.coauthors | join: ', ' }}){% endif %}
       {% if paper.previous %}
       <div class="note">
@@ -55,22 +55,21 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 
 <ul class="ref-list">
 
-<li>Understanding regional dynamics [<a href="notes/draft/RD.pdf">PDF</a>] [<a href="notes/draft/RD_slides.pdf">Slides</a>]</li>
+<li>Understanding regional dynamics (2025) [<a href="notes/draft/RD.pdf">paper</a>] [<a href="notes/draft/RD_slides.pdf">slides</a>]</li>
 
-<li>Equilibrium distortion with dual noise [<a href="notes/draft/SLD.pdf">PDF</a>]</li>
+<li>Equilibrium distortion with dual noise (2025) [<a href="notes/draft/SLD.pdf">paper</a>]</li>
 
-<li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability of spatial equilibria</a>  (with Takashi Akamatsu and Yosuke Kogure)</li>
+<li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability of spatial equilibria</a> (2025) (with Takashi Akamatsu and Yosuke Kogure)</li>
 
-<li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (with José Maria Gaspar)</li>
-
-<li><a href="https://arxiv.org/abs/2012.12503">Cities in a world of diminishing transport costs</a> (with Tomoya Mori)</li>
+<li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (2024) (with José Maria Gaspar)</li>
 
 
-<li><a href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (with José Maria Gaspar)</li>
+
+<li><a href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (2021) (with José Maria Gaspar)</li>
+
+<li><a href="https://arxiv.org/abs/2012.12503">Cities in a world of diminishing transport costs</a> (2021) (with Tomoya Mori)</li>
 </ul>
 
 <hr>
 
 {% include other.html %}
-
-</ul>
