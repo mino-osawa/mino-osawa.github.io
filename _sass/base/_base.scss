@@ -49,7 +49,11 @@ h3 {
     
     a {
         text-underline-offset: 2px;     /* 間隔の調整 */
-        text-decoration-color: #aaa; /* 下線のみ赤に */
+        text-decoration-color: #ccc; /* 下線のみ赤に */
+
+        &:hover {
+            text-decoration-color: $color-konpeki;
+        }
     }
   }
 
@@ -89,7 +93,7 @@ a {
   }
 
   &:hover {
-    text-decoration: underline;
+    color: $color-konpeki; 
   }
 }
 
