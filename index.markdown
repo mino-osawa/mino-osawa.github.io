@@ -59,7 +59,7 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 
 <li>Equilibrium distortion with dual noise (2025) [<a href="notes/draft/SLD.pdf">paper</a>]</li>
 
-<li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns: Potential maximization and stochastic stability of spatial equilibria</a> (2025) (with Takashi Akamatsu and Yosuke Kogure)</li>
+<li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns</a> (2025) (with Takashi Akamatsu and Yosuke Kogure)</li>
 
 <li><a href="https://arxiv.org/abs/2212.14475">Innovation through intra and inter-regional interaction in economic geography</a> (2024) (with José Maria Gaspar)</li>
 
