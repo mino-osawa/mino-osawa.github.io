@@ -15,9 +15,9 @@
         <script>
         const EME = "b3Nhd2EubWlub3J1LjR6QGt5b3RvLXUuYWMuanA=";
         document.getElementById("cpem").addEventListener("click", async (e) => {
-            const email = atob(EME);
+            const ADDR = atob(EME);
             try {
-            await navigator.clipboard.writeText(email);
+            await navigator.clipboard.writeText(ADDR);
             e.target.textContent = "Copied!";
             setTimeout(() => { e.target.textContent = "Copy"; }, 2000);
             } catch {
