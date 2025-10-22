@@ -6,7 +6,8 @@ permalink: "/teaching/"
 
 <h1>Teaching</h1>
 
-<p><a href="/policies/#disclaimer">免責事項</a></p>
+<p><a href="/policies/#disclaimer">免責事項</a> 
+<p><a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">誤り等を報告（GitHub）</a></p>
 
 
 <hr>
@@ -82,11 +83,7 @@ permalink: "/teaching/"
 
 <hr>
 
-<h2>Expository Notes</h2>
+<h2>Notes</h2>
 <ul class="last_list">
 <li><a href="/notes/N2412_logit.pdf">Logit Choice and Perturbed Optimization</a>, <a href="https://mino-osawa.github.io/rum/2025/05/29/post.html">日本語解説</a></li>
 </ul>
-
-<hr>
-
-<p><a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">資料の誤り等を報告（要 GitHub アカウント）</a></p>
