@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 歩いて学ぶ都市経済学
+title: 書評：歩いて学ぶ都市経済学
 running_head: 歩いて学ぶ都市経済学
 categories: Misc
 misc: 急に寒くなった．
