@@ -6,8 +6,7 @@ permalink: "/teaching/"
 
 <h1>Teaching</h1>
 
-<p><a href="/policies/#disclaimer">免責事項</a> 
-<p><a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">誤り等を報告（GitHub）</a></p>
+<p><a href="/policies/#disclaimer">免責事項</a> | <a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">誤り等を報告(GitHub) </a></p>
 
 
 <hr>
@@ -22,6 +21,7 @@ permalink: "/teaching/"
 
 <ul>
 <li>水曜5限 16:45-18:15 @ 経済研究所 第二共同研究室 (105)</li>
+<li>11月5日(水)は出張のため開講しません．補講については別途調整します．</li>
 </ul>
 
 <ol start="0">
