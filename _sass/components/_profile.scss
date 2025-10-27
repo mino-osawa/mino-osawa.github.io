@@ -91,7 +91,8 @@
 .em::before,
 .loc::before,
 .twt::before,
-.lnks::before {
+.lnks::before ,
+.doc::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -116,6 +117,10 @@
 
 .lnks::before {
   background-image: url("/assets/img/link.png");
+}
+
+.doc::before {
+  background-image: url("/assets/img/doc.png");
 }
 
 .inline-abstract {

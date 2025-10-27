@@ -6,7 +6,7 @@ categories: Misc
 misc: 急に寒くなった．
 ---
 
-『[歩いて学ぶ都市経済学](https://www.nippyo.co.jp/shop/book/9601.html)』を著者からご恵投いただいた．装画がとても魅力的で，開く前からとてもワクワクする．イラストレーターは <a href="https://twitter.com/noa1008xx/status/1974021356233654272">noa1008</a> さんという方らしい．
+中島・手島・山﨑『[歩いて学ぶ都市経済学](https://www.nippyo.co.jp/shop/book/9601.html)』（日本評論社，2025）を著者からご恵投いただいた．装画がとても魅力的で，開く前からとてもワクワクする．イラストレーターは <a href="https://twitter.com/noa1008xx/status/1974021356233654272">noa1008</a> さんという方らしい．
 
 <center>
 <img src="/assets/img/misc/09601.jpg" style="max-width: 250px; box-shadow: 2px 3px 3px #aaa; margin: 1em;">
