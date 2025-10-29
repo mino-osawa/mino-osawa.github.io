@@ -57,6 +57,12 @@
   }
 }
 
+#em-img {
+    display: inline-block;
+    height: $FSize-3; 
+    vertical-align: middle;
+}
+
 .info {
   list-style: none;
   padding-left: 0rem;
@@ -71,8 +77,9 @@
   }
 
   .em-button {
-    padding: .1rem .5rem;
-    width: 4rem;
+    padding: 0 .2rem;
+    width: 3rem;
+    font-size: $FSize-1; 
     text-align:center;
     background: #fff;
     border-radius: .1rem;
