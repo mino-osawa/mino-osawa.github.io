@@ -19,7 +19,7 @@
             const ADDR = atob(EME);
             try {
             await navigator.clipboard.writeText(ADDR);
-            e.target.textContent = "Copied!";
+            e.target.textContent = "Copied";
             setTimeout(() => { e.target.textContent = "Copy"; }, 2000);
             } catch {
             e.target.textContent = "Failed";
