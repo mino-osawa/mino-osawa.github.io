@@ -8,7 +8,6 @@ permalink: "/teaching/"
 
 <p><a href="/policies/#disclaimer">免責事項</a> | <a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">誤り等を報告(GitHub) </a></p>
 
-
 <hr>
 
 <div class="title-block" id="vi">
