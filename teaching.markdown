@@ -37,7 +37,7 @@ permalink: "/teaching/"
 <ol start="4">
 <li><a href="/notes/vip/24-05_PG.pdf">集団ゲーム</a></li>
 <li><a href="/notes/vip/24-06_Congestion.pdf">混雑ゲーム</a></li>
-<li><a href="/notes/vip/24-07_Urban.pdf">都市モデル</a></li>
+<li><a href="/notes/vip/24-07_Urban.pdf">都市モデ</a></li>
 <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
 </ol>
 
