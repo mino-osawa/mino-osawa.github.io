@@ -23,6 +23,7 @@ permalink: "/teaching/"
 <li>11月5日(水)は出張のため開講しません．</li>
 <li>11月19日(水)は体調不良のため開講しません．</li>
 <li>補講については補講期間 1/21(水) or 1/22(木) に実施するものとして別途調整します．</li>
+<li>成績評価は口頭での文献紹介によります．報告形式は自由とします．<a href="/notes/vip/VI25-Readings.pdf">候補文献リスト</a></li>
 </ul>
 
 <ol start="0">
@@ -31,11 +32,11 @@ permalink: "/teaching/"
 <li><a href="/notes/vip/VI25-02_LP.pdf">線形最適化問題</a></li>
 <li><a href="/notes/vip/VI25-03_NLP.pdf">非線形最適化問題</a></li>
 <li><a href="/notes/vip/VI25-04_VIP.pdf">変分不等式問題</a></li>
+<li><a href="/notes/vip/VI25-05_PG.pdf">集団ゲーム</a></li>
 </ol>
 
 【参考】以下は 2024 年度の資料です．アップデートしつつ同様の内容を講義予定です．
 <ol start="4">
-<li><a href="/notes/vip/24-05_PG.pdf">集団ゲーム</a></li>
 <li><a href="/notes/vip/24-06_Congestion.pdf">混雑ゲーム</a></li>
 <li><a href="/notes/vip/24-07_Urban.pdf">都市モデル</a></li>
 <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
