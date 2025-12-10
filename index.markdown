@@ -60,7 +60,7 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 
 <li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns</a> (2025) (with Takashi Akamatsu and Yosuke Kogure)</li>
 
-<li><a href="https://arxiv.org/abs/2512.06402">Innovation, Spillovers and Economic Geography</a> (2025) (with José Maria Gaspar)</li>
+<li><a href="https://arxiv.org/abs/2512.06402">Innovation, spillovers and economic geography</a> (2025) (with José Maria Gaspar)</li>
 
 
 <li><a href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (2021) (with José Maria Gaspar)</li>
