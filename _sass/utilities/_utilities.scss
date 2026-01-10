@@ -30,3 +30,9 @@
     color: #bbb;
   }
 }
+
+.lozenge-row::before {
+  content: "◆  　◆  　◆";
+  display: block;
+  text-align: center;
+}

@@ -9,6 +9,8 @@ title: M.Osawa's Website
 
 <h2>Research</h2>
 
+<a href="/summary/">About my research</a>. 
+
 <h3>Selected Discussion Papers</h3>
 
 <ul class="ref-list">
