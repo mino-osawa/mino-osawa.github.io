@@ -39,7 +39,7 @@ permalink: "/teaching/"
 <li><a href="/notes/vip/VI25-06_Congestion.pdf">混雑ゲーム</a></li>
 <li><a href="/notes/vip/VI25-07_Urban.pdf">都市モデル</a></li>
 <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
-</ul>
+</ol>
 
 <hr>
 
