@@ -1,6 +1,6 @@
 ---
 layout: "doc"
-title: "M.Osawa - Teaching"
+title: "M.Osawa - Research Summary"
 permalink: "/summary/"
 ---
 
