@@ -14,7 +14,7 @@ title: M.Osawa's Website
 <h3>Selected Discussion Papers</h3>
 
 <ul class="ref-list">
-    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (2025)<br>(with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="https://arxiv.org/pdf/1912.05113">paper</a>]
+    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (2025)<br>(with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="notes/draft/AMOT.pdf">paper</a>]
     <div class="note">Previous versions: 
     <ul class="ref-prev">
         <li><a href="https://www.rieti.go.jp/jp/publications/dp/17e125.pdf" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a (PDF)</a>: "Spatial Scale of Agglomeration and Dispersion: Theoretical foundations and empirical implications"</li>
