@@ -67,7 +67,6 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
 
 <li><a href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (2021) (with José Maria Gaspar)</li>
 
-<li><a href="https://arxiv.org/abs/2012.12503">Cities in a world of diminishing transport costs</a> (2021) (with Tomoya Mori)</li>
 </ul>
 
 <hr>
