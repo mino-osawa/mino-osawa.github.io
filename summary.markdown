@@ -8,6 +8,8 @@ permalink: "/summary/"
 
 <span style="display:block; text-align:right;">January 2026</span>
 
+<span style="display:block; text-align:right;"><a href="/notes/Research-summary_Minoru-Osawa_January_2026.pdf">PDF version</a></span>
+
 With more than half of humanity residing in cities and two-thirds projected to do so by mid-century, urban environments have become the primary arena where economic interactions occur. Understanding urban systems is now central to understanding the global economy itself. Spatial phenomena, ranging from traffic congestion to urbanization, emerge from the complex interplay of individual decisions constrained by geography and markets and thus have been major subjects in economics.
 
 My research has shown that a small number of fundamental principles may play a central role in shaping the formation, growth, and decline of cities, through their close interaction with transportation costs between locations. By clarifying these core mechanisms behind economic agglomeration and dispersion, my works lay the groundwork for thinking about long-run urban and regional policies. While quantitative spatial models have become central to contemporary urban economics, my project is complementary to this line of work, as discussed below.
@@ -74,5 +76,3 @@ From this perspective, allowing for equilibrium multiplicity is not merely a tec
 A promising direction is therefore to seek structured representations that preserve the economically relevant forces while remaining amenable to analysis. Mapping general spatial models into tractable subclasses that admit potential functions may offers one such avenue. Even when the mapping is only approximate, a potential-based formulation can serve as a surrogate model that captures the comparative statics and stability properties relevant for policy evaluation. This approach provides a disciplined way to organize parameter estimation, equilibrium selection, assess robustness, and interpret counterfactual outcomes in environments where multiplicity is intrinsic rather than incidental. 
 
 I view the development of such surrogate representations as a key step toward extending QSMs beyond conventional unique-equilibrium benchmarks where much of the observed variation is attributed to structural residuals. By clarifying how endogenous agglomeration and dispersion forces shape long-run spatial outcomes, this line of work aims to strengthen the foundations of QSM-based policy analysis and to improve our ability to evaluate interventions whose effects unfold across locations and over time.
-
-<span style="display:block; text-align:right;"><a href="/notes/Research-summary_Minoru-Osawa_January_2026.pdf">PDF version</a></span>
