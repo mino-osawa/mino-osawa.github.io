@@ -8,7 +8,7 @@ permalink: "/summary/"
 
 <span style="display:block; text-align:right;">January 2026</span>
 
-<span style="display:block; text-align:right;"><a href="/notes/Research-summary_Minoru-Osawa_January_2026.pdf">PDF version</a></span>
+<span style="display:block; text-align:right;"><a href="/notes/Research-summary_Minoru-Osawa_February_2026.pdf">PDF version</a></span>
 
 With more than half of humanity residing in cities and two-thirds projected to do so by mid-century, urban environments have become the primary arena where economic interactions occur. Understanding urban systems is now central to understanding the global economy itself. Spatial phenomena, ranging from traffic congestion to urbanization, emerge from the complex interplay of individual decisions constrained by geography and markets and thus have been major subjects in economics.
 
