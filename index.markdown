@@ -14,16 +14,7 @@ title: M.Osawa's Website
 <h3>Selected Discussion Papers</h3>
 
 <ul class="ref-list">
-    <li><a href="https://arxiv.org/abs/1912.05113">Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities</a> (2025)<br>(with Takashi Akamatsu, Tomoya Mori, and Yuki Takayama) [<a href="notes/draft/AMOT.pdf">paper</a>] [<a href="https://data.mendeley.com/datasets/j6b7mcyv6c/1">codes</a>] <br>
-    <span class="red-like">Journal of Urban Economics</span>, to appear. 
-    <div class="note">Previous versions: 
-    <ul class="ref-prev">
-        <li><a href="https://www.rieti.go.jp/jp/publications/dp/17e125.pdf" alt="Spatial scale of agglomeration and dispersion: Theoretical foundations and empirical implications">2017a (PDF)</a>: "Spatial Scale of Agglomeration and Dispersion: Theoretical foundations and empirical implications"</li>
-        <li><a href="https://mpra.ub.uni-muenchen.de/97496/1/MPRA_paper_97496.pdf" alt="Endogenous agglomeration in a many-region world">2017b (PDF)</a>: "Endogenous agglomeration in a many-region world"</li>
-    </ul>
-    </div>
-    </li>
-    <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (2023)<br> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">paper</a>]</li>
+    <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (2024)<br> (with Tomoya Mori, Takashi Akamatsu, and Yuki Takayama)  [<a href="https://arxiv.org/pdf/2207.05346">paper</a>]</li>
 </ul>
 
 <h3>Publications</h3>
@@ -34,21 +25,10 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
   {% for paper in site.data.papers %}
     <li>
       <a href="{{ paper.url }}" class="paper-title">{{ paper.title }}</a> <br>
-      <span class="red-like">{{ paper.journal }}</span> ({{ paper.year }}) 
+      <span class="red-like">{{ paper.journal }}</span>{% if paper.state %}, {{paper.state}}.{% endif %} ({{ paper.year }}) 
       {% if paper.pdf %}[<a href="{{ paper.pdf }}">paper</a>]{% endif %}
+      {% if paper.misclinks %}{% for link in paper.misclinks %} [<a href="{{ link.url }}">{{ link.name }}</a>]{% endfor %}{% endif %}
       {% if paper.coauthors %}<br>(with {{ paper.coauthors | join: ', ' }}){% endif %}
-      {% if paper.previous %}
-      <div class="note">
-      Previous versions: 
-          <ul class="ref-prev">
-            {% for ver in paper.previous %}
-              <li>
-                <a href="{{ ver.url }}">{{ ver.year }}</a> "{{ ver.title }}"
-              </li>
-            {% endfor %}
-          </ul>
-      </div>
-      {% endif %}
     </li>
   {% endfor %}
 </ul>

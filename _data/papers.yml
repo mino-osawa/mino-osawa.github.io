@@ -1,12 +1,20 @@
-﻿# - title: "Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities"
-#   year: 2026
-#   journal: "Journal of Urban Economics"
-#   url: "https://doi.org/10.1016/j.jet.2020.105025"
-#   pdf: "https://drive.google.com/open?id=1Y5okEA5ZY9APvol5MFqpGapphfukdB2P&usp=drive_fs"
-#   coauthors:
-#     - "Takashi Akamatsu"
-#     - "Tomoya Mori"
-#     - "Yuki Takayama"
+﻿- title: "Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities"
+  year: 2026
+  journal: "Journal of Urban Economics"
+  url: "https://doi.org/10.1016/j.jet.2020.105025"
+  pdf: "https://drive.google.com/open?id=1Y5okEA5ZY9APvol5MFqpGapphfukdB2P&usp=drive_fs"
+  state: "to appear"
+  coauthors:
+    - "Takashi Akamatsu"
+    - "Tomoya Mori"
+    - "Yuki Takayama"
+  misclinks:
+    - name: "codes"
+      url: "https://data.mendeley.com/datasets/j6b7mcyv6c/1"
+    - name: "DP2017a"
+      url: "https://www.rieti.go.jp/jp/publications/dp/17e125.pdf"
+    - name: "DP2017b"
+      url: "https://mpra.ub.uni-muenchen.de/97496/1/MPRA_paper_97496.pdf"
 
 - title: "Equilibrium refinement for a model of non-monocentric internal structures of cities: A potential game approach"
   year: 2020
