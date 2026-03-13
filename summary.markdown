@@ -65,7 +65,7 @@ This second pillar of my research offers a methodological complement to the firs
 
 <div class="lozenge-row"></div>
 
-Beyond spatial applications, my work also contributes to the theory of large-population games itself. In “**Equilibrium distortion with dual noise**,” I develop a new equilibrium concept that addresses corrective decision-making under idiosyncratic and sampling noises, laying a methodological groundwork for future applications in spatial political economy.
+Beyond spatial applications, my work also contributes to the theory of large-population games itself. In “**Sampling logit equilibrium and endogenous payoff distortion**,” I develop a new equilibrium concept that addresses corrective decision-making under idiosyncratic and sampling noises, laying a methodological groundwork for future applications in spatial political economy.
 
 <h2>3. Prospects</h2>
 
