@@ -26,7 +26,9 @@ Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citat
     <li>
       {% if paper.url %}<a href="{{ paper.url }}" class="paper-title">{{ paper.title }}</a> {% else %}{{ paper.title }}{% endif %}<br>
       <span class="red-like">{{ paper.journal }}</span>{% if paper.state %}, {{paper.state}}.{% endif %} ({{ paper.year }}) 
-      {% if paper.pdf %}[<a href="{{ paper.pdf }}">paper</a>]{% endif %}{% if paper.misclinks %}{% for link in paper.misclinks %} [<a href="{{ link.url }}">{{ link.name }}</a>]{% endfor %}{% endif %}{% if paper.coauthors %} <br>(with {{ paper.coauthors | join: ', ' }}){% endif %}
+      {% if paper.pdf %}[<a href="{{ paper.pdf }}">paper</a>]{% endif %}{% if paper.misclinks %}{% for link in paper.misclinks %}
+      [<a href="{{ link.url }}">{{ link.name }}</a>]{% endfor %}{% endif %}{% if paper.coauthors %} <br>
+      (with {{ paper.coauthors | join: ', ' }}){% endif %}
     </li>
   {% endfor %}
 </ul>
