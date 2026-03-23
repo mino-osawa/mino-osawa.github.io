@@ -1,15 +1,16 @@
 ﻿- title: "Spatial scale of agglomeration and dispersion: Number, spacing, and the spatial extent of cities"
   year: 2026
   journal: "Journal of Urban Economics"
-  # url: ""
+  url: "https://arxiv.org/abs/1912.05113"
   pdf: "https://mino-osawa.github.io/notes/draft/AMOT.pdf"
   state: "to appear"
+  cover: "jue.jpg"
   coauthors:
     - "Takashi Akamatsu"
     - "Tomoya Mori"
     - "Yuki Takayama"
   misclinks:
-    - name: "codes"
+    - name: "Codes"
       url: "https://data.mendeley.com/datasets/j6b7mcyv6c/1"
     - name: "DP2017a"
       url: "https://www.rieti.go.jp/jp/publications/dp/17e125.pdf"
@@ -19,6 +20,7 @@
 - title: "Equilibrium refinement for a model of non-monocentric internal structures of cities: A potential game approach"
   year: 2020
   journal: "Journal of Economic Theory"
+  cover: "jet.jpg"
   url: "https://doi.org/10.1016/j.jet.2020.105025"
   pdf: "https://drive.google.com/open?id=1Y5okEA5ZY9APvol5MFqpGapphfukdB2P&usp=drive_fs"
   coauthors:
@@ -27,6 +29,7 @@
 - title: "Harris and Wilson (1978) model revisited: The spatial period-doubling bifurcation in an urban retail model"
   year: 2016
   journal: "Journal of Regional Science"
+  cover: "jrs.jpg"
   url: "https://doi.org/10.1111/jors.12306"
   pdf: "https://drive.google.com/open?id=1YJwRv2AHs2z1Rdb8CxszlRiqytYDv-Fm&usp=drive_fs"
   coauthors:
@@ -36,6 +39,7 @@
 - title: "First-best dynamic assignment of commuters with endogenous heterogeneities in a corridor network"
   year: 2018
   journal: "Transportation Research Part B: Methodological"
+  cover: "tr-b.jpg"
   url: "https://doi.org/10.1016/j.trb.2017.09.003"
   pdf: "https://drive.google.com/open?id=1YLaqL3wjm49qNP9Nzf_gdUSrkKnAwK8K&usp=drive_fs"
   coauthors:
@@ -45,6 +49,7 @@
 - title: "Perturbed cusp catastrophe in a population game: Spatial economics with locational asymmetries"
   year: 2022
   journal: "Journal of Regional Science"
+  cover: "jrs.jpg"
   url: "https://doi.org/10.1111/jors.12582"
   pdf: "https://drive.google.com/open?id=1XkYQaNZZ2R6cWrv5GID_HZHJSsuj_1yw&usp=drive_fs"
   coauthors:
@@ -55,6 +60,7 @@
 - title: "Breaking and sustaining bifurcations in <i>S<sub>N</sub></i>-invariant equidistant economy"
   year: 2021
   journal: "International Journal of Bifurcation and Chaos"
+  cover: "ijbc.jpg"
   url: "https://doi.org/10.1142/S0218127420502405"
   pdf: "https://drive.google.com/open?id=1Y-rvKi1loMGUyBpgiKShzXxzxvYvnfqr&usp=drive_fs"
   coauthors:
@@ -65,6 +71,7 @@
 - title: "Model-based analysis on social acceptability and feasibility of a focused protection strategy against the COVID-19 pandemic"
   year: 2021
   journal: "Scientific Reports"
+  cover: "scirep.jpg"
   url: "https://doi.org/10.1038/s41598-021-81630-9"
   pdf: "https://drive.google.com/open?id=1Xq0fkIJ6Bwq0GU53KIHbaYV1kQuon6tD&usp=drive_fs"
   coauthors:
@@ -77,6 +84,7 @@
 - title: "Time evolution of city distributions in Germany: Group-theoretic spectrum analysis"
   year: 2022
   journal: "Networks and Spatial Economics"
+  cover: "nets.jpg"
   url: "https://doi.org/10.1007/s11067-021-09557-2"
   pdf: "https://drive.google.com/open?id=1Xm8uZ6nL6e_EMwmF1u2Ihw_6J_0ELfLj&usp=drive_fs"
   coauthors:
@@ -86,6 +94,7 @@
 - title: "Spatio-temporal analysis of gasoline shortages in the Tohoku region after the Great East Japan Earthquake"
   year: 2013
   journal: "Journal of JSCE"
+  cover: "jsce.jpg"
   url: "https://doi.org/10.2208/journalofjsce.1.1_447"
   pdf: "https://drive.google.com/open?id=1YLgMtuWF4jn5A_vQNtQdNpSS94GiI77o&usp=drive_fs"
   coauthors:
