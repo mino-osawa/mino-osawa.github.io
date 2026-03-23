@@ -13,7 +13,7 @@ title: M.Osawa's Website
 
 <h3>Publications</h3>
 
-Ordered by my preference. Please see <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_blank">Google Scholar</a> for a chronological list. 
+Please see <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_blank">Google Scholar</a> for a chronological list. 
 
 <ul class="ref-list">
   {% for paper in site.data.papers %}
