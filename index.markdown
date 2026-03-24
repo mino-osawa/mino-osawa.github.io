@@ -22,10 +22,7 @@ See <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_
         {%- if paper.cover -%}
           <img
             src="{{ '/assets/img/journals/' | append: paper.cover | append: '-100.webp' | relative_url }}"
-            srcset="
-                {{ '/assets/img/journals/' | append: paper.cover | append: '-100.webp' | relative_url }} 1x,
-                {{ '/assets/img/journals/' | append: paper.cover | append: '-200.webp' | relative_url }} 2x
-            "
+            srcset="{{ '/assets/img/journals/' | append: paper.cover | append: '-100.webp' | relative_url }} 1x, {{ '/assets/img/journals/' | append: paper.cover | append: '-200.webp' | relative_url }} 2x" 
             alt="{{ paper.journal }} cover"
             width="100"
             loading="lazy"
