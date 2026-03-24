@@ -5,21 +5,21 @@
 
   a {
     text-decoration: none;
-    color: #999;
+    color: $color-link-muted;
     font-weight: bold;
 
     &.active {
-      color: #000;
+      color: $color-text-strong;
       text-decoration: underline;
     }
   }
 
   .site-title a {
-    color: #000;
+    color: $color-text-strong;
     text-decoration: none;
 
     &:hover {
-      color: #000;
+      color: $color-text-strong;
     }
   }
 
@@ -42,7 +42,7 @@
         background-size: contain;
         vertical-align: middle;
         background-repeat: no-repeat;
-        color: #999;
+        color: $color-link-muted;
       }
     }
 
@@ -51,12 +51,12 @@
     }
   }
 
-  @media (max-width: 600px) {
+  @include respond-max($bp-mobile) {
     .nav-container {
-      padding: 0.8rem 1rem 0.5rem 1rem;
+      padding: 0.8rem $gutter-mobile 0.5rem;
       align-items: flex-start;
-      background-color: #f0f0f0;
-      border-bottom: 1px solid #ddd;
+      background-color: $color-surface-alt;
+      border-bottom: 1px solid $color-border;
     }
 
     .site-title,
@@ -84,8 +84,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 2em 0;
-  padding: 0.83em 2.5rem;
+  margin: 0 0 $section-gap;
+  padding: 0.83em $gutter-desktop;
 }
 
 .site-title {
@@ -93,7 +93,7 @@
 }
 
 br.wide {
-  @media (max-width: 600px) {
+  @include respond-max($bp-mobile) {
     display: none;
   }
 }

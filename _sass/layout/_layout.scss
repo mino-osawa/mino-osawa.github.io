@@ -3,43 +3,45 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #fff;
-  max-width: 94rem;
+  background-color: $color-surface;
+  max-width: $page-max-width;
   margin: 0 auto;
 }
 
 .page-content {
   flex: 1;
-  padding: 0 2.5rem 2em 2.5rem;
+  padding: 0 $gutter-desktop $section-gap;
 
-  @media (max-width: 600px) {
-    padding: 0 1rem;
+  @include respond-max($bp-mobile) {
+    padding: 0 $gutter-mobile;
   }
 
-  @media (max-width: 768px) {
-      max-width: 44rem;
-      font-size: $FSize-1;
-      
-      br { display: none; }
+  @include respond-max($bp-tablet) {
+    max-width: $content-max-width;
+    font-size: $FSize-1;
+
+    br {
+      display: none;
+    }
   }
 }
 
-@media (min-width: 1500px) {
-    html {
-        background: linear-gradient(
-            to right,
-            #f5f5f5,
-            #fafafa 40%,
-            #fafafa 60%,
-            #f5f5f5
-        );
-    }
+@include respond-min($bp-wide) {
+  html {
+    background: linear-gradient(
+      to right,
+      $color-surface-muted,
+      $color-surface-subtle 40%,
+      $color-surface-subtle 60%,
+      $color-surface-muted
+    );
+  }
 
   .page-wrapper {
     margin: 0 auto;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    box-shadow: 0px 0px 5px #aaa;
+    border-left: 1px solid $color-border;
+    border-right: 1px solid $color-border;
+    box-shadow: 0 0 5px $color-border-shadow;
   }
 }
 
@@ -61,137 +63,4 @@
 
 .course-info {
   margin: 0.83em 0 0 0;
-}
-
-// tile publications 
-
-.pub-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 3rem;
-  row-gap: 0.2rem;
-}
-
-.pub-item {
-  display: grid;
-  grid-template-columns: 100px minmax(0, 1fr);
-  column-gap: 1rem;
-  align-items: start;
-
-  margin: 0;
-  padding: .3rem 0 1.3rem;
-  border-bottom: 1px solid #ddd;
-}
-
-.pub-thumb img {
-  display: block;
-  width: 100px;
-  height: auto;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-.pub-thumb-placeholder {
-  width: 100px;
-  aspect-ratio: 0.72 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  border: 1px solid #dddddd;
-  background: #f3f3f3;
-  color: #777;
-  font-size: 0.82rem;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-.pub-body {
-  min-width: 0;
-}
-
-.pub-title {
-  margin: 0 0 0.18rem;
-  font-size: $FSize-3;
-  line-height: 1.35;
-}
-
-.pub-title a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.pub-title a:hover {
-  color: $color-konpeki;
-}
-
-.pub-authors {
-  margin: .5rem 0 .3rem;
-  color: #666;
-  font-size: $FSize-1;
-  line-height: 1.2;
-}
-
-.pub-venue {
-  margin: 0 0 0.18rem;
-  color: #666;
-  font-size: $FSize-1;
-  line-height: 1.4;
-}
-
-.pub-journal {
-    color: #666; 
-    font-style: italic;
-}
-
-.pub-links {
-  color: #666;
-  font-size: $FSize-1;
-  line-height: 1.4;
-}
-
-.pub-links a {
-  color: #666;
-  text-decoration: none;
-}
-
-.pub-links a:hover {
-  color: $color-konpeki;
-  text-decoration: underline;
-}
-
-.pub-links .sep {
-  margin: 0 0.35rem;
-  color: #b0b0b0;
-}
-
-@media (max-width: 980px) {
-  .pub-list {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 560px) {
-  .pub-item {
-    grid-template-columns: 80px minmax(0, 1fr);
-    column-gap: 0.85rem;
-  }
-
-  .pub-thumb img,
-  .pub-thumb-placeholder {
-    width: 80px;
-  }
-
-  .pub-title {
-    font-size: 1rem;
-  }
-
-  .pub-authors,
-  .pub-venue {
-    font-size: 0.94rem;
-  }
 }
