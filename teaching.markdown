@@ -10,6 +10,20 @@ permalink: "/teaching/"
 
 <hr>
 
+<div class="title-block" id="ur">
+  <h2 class="jp">都市経済学</h2>
+  <div class="en">Urban Economics</div>
+</div>
+<div class="course-info">
+京都大学：2024前期, 2026前期
+</div>
+
+<ul>
+<li>板書のみで実施しています．</li>
+</ul>
+
+<hr>
+
 <div class="title-block" id="vi">
   <h2 class="jp">均衡分析と数理最適化</h2>
   <div class="en">Variational Inequalities and Economic Equilibrium Problems</div>
@@ -70,19 +84,6 @@ permalink: "/teaching/"
 
 <hr>
 
-<div class="title-block" id="ur">
-  <h2 class="jp">都市経済学</h2>
-  <div class="en">Urban Economics</div>
-</div>
-<div class="course-info">
-京都大学：2024前期
-</div>
-
-<ul>
-<li>板書のみで実施しています．</li>
-</ul>
-
-<hr>
 
 <h2>Notes</h2>
 <ul class="last_list">
