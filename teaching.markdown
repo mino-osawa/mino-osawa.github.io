@@ -70,20 +70,6 @@ permalink: "/teaching/"
 
 <hr>
 
-<div class="title-block" id="ur">
-  <h2 class="jp">都市経済学</h2>
-  <div class="en">Urban Economics</div>
-</div>
-<div class="course-info">
-京都大学：2024前期
-</div>
-
-<ul>
-<li>板書のみで実施しています．</li>
-</ul>
-
-<hr>
-
 <h2>Notes</h2>
 <ul class="last_list">
 <li><a href="/notes/N2412_logit.pdf">Logit Choice and Perturbed Optimization</a>, <a href="https://mino-osawa.github.io/rum/2025/05/29/post.html">日本語解説</a></li>

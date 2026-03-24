@@ -1,5 +1,33 @@
-/* === タイポグラフィ設定 === */
-
 $FSize-1: clamp(0.9rem, calc(0.829rem + 0.36vw), 1rem);
 $FSize-2: clamp(0.8rem, calc(0.6718rem + 0.6838vw), 1rem);
-$FSize-3: clamp(0.95rem, calc(0.55rem + 1.0667vw), 1.15rem);;
+$FSize-3: clamp(0.95rem, calc(0.55rem + 1.0667vw), 1.15rem);
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0;
+}

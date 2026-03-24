@@ -83,15 +83,15 @@
   align-items: start;
 
   margin: 0;
-  padding: 1rem 0 1.1rem;
-  border-bottom: 1px solid #e3e3e3;
+  padding: .3rem 0 1.3rem;
+  border-bottom: 1px solid #ddd;
 }
 
 .pub-thumb img {
   display: block;
   width: 100px;
   height: auto;
-  border: 1px solid #dddddd;
+  border: 1px solid #ccc;
   box-sizing: border-box;
 }
 
@@ -130,21 +130,22 @@
 }
 
 .pub-authors {
+  margin: .5rem 0 0.18rem;
+  color: #777;
+  font-size: $FSize-1;
+  line-height: 1.2;
+}
+
+.pub-venue {
   margin: 0 0 0.18rem;
-  color: #7a7a7a;
+  color: #696969;
   font-size: $FSize-1;
   line-height: 1.4;
 }
 
-.pub-venue {
-  margin: 0 0 0.28rem;
-  color: #777;
-  font-size: $FSize-1;
-  line-height: 1.45;
-}
-
 .pub-journal {
   color: #777; 
+  font-style: italic;
 }
 
 .pub-links {
@@ -154,7 +155,7 @@
 }
 
 .pub-links a {
-  color: #888;
+  color: #777;
   text-decoration: none;
 }
 

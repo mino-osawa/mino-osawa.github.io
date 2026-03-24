@@ -19,31 +19,29 @@ See <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_
   {% for paper in site.data.papers %}
     <li class="pub-item">
       <div class="pub-thumb">
-        {% if paper.cover %}
+        {%- if paper.cover -%}
           <img
             src="{{ '/assets/img/journals/' | append: paper.cover | relative_url }}"
             alt="{{ paper.journal }} cover"
             width="100"
             loading="lazy"
           >
-        {% else %}
+        {%- else -%}
           <div class="pub-thumb-placeholder" aria-hidden="true">
             {{ paper.journal | split: ' ' | first }}
           </div>
-        {% endif %}
+        {%- endif -%}
       </div>
       <div class="pub-body">
         <div class="pub-title">
-          {% if paper.url %}
+          {%- if paper.url -%}
             <a href="{{ paper.url }}" class="paper-title">{{ paper.title }}</a>
-          {% else %}
+          {%- else -%}
             {{ paper.title }}
-          {% endif %}
+          {%- endif -%}
         </div>
         {% if paper.coauthors %}
-          <div class="pub-authors">With: 
-            {{ paper.coauthors | join: ', ' }}
-          </div>
+        <div class="pub-authors">With: {{ paper.coauthors | join: ', ' }}</div>
         {% endif %}
         <div class="pub-venue">
           <span class="pub-journal">{{ paper.journal }}</span>
@@ -51,20 +49,20 @@ See <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_
           {%- if paper.year -%}, {{ paper.year }}{% endif %}
         </div>
         {% if paper.pdf or paper.misclinks %}
-          <div class="pub-links">
-            {% assign first_link = true %}
-            {% if paper.pdf %}
-              <a href="{{ paper.pdf }}">PDF</a>
-              {% assign first_link = false %}
-            {% endif %}
-            {% if paper.misclinks %}
-              {% for link in paper.misclinks %}
-                {% unless first_link %}<span class="sep">・</span>{% endunless %}
-                <a href="{{ link.url }}">{{ link.name }}</a>
-                {% assign first_link = false %}
-              {% endfor %}
-            {% endif %}
-          </div>
+        <div class="pub-links">
+        {% assign first_link = true %}
+        {%- if paper.pdf -%}
+            <a href="{{ paper.pdf }}">PDF</a>
+            {%- assign first_link = false -%}
+        {%- endif -%}
+        {%- if paper.misclinks -%}
+            {%- for link in paper.misclinks -%}
+            {% unless first_link %}<span class="sep">・</span>{% endunless %}
+            <a href="{{ link.url }}">{{ link.name }}</a>
+            {%- assign first_link = false -%}
+            {%- endfor -%}
+        {% endif %}
+        </div>
         {% endif %}
       </div>
     </li>

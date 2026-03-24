@@ -21,29 +21,6 @@ main {
   margin-bottom: 2em;
 }
 
-/* === タイポグラフィ・文書構造 === */
-h1,
-h2,
-h3 {
-  font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
-  font-weight: bold;
-  margin: 0 0 0.5em 0;
-}
-
-h1 {
-  font-size: 1.9rem;
-}
-
-h2 {
-  font-size: 1.6rem;
-}
-
-h3 {
-  font-size: 1.2rem;
-  color: #444;
-  margin-bottom: 0;
-}
-
 .ref-list {
   line-height: 1.5;
   padding-left: 1.2em;
