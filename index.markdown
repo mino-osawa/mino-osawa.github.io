@@ -21,11 +21,15 @@ See <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_
       <div class="pub-thumb">
         {%- if paper.cover -%}
           <img
-            src="{{ '/assets/img/journals/' | append: paper.cover | relative_url }}"
+            src="{{ '/assets/img/journals/' | append: paper.cover | append: '-100.webp' | relative_url }}"
+            srcset="
+                {{ '/assets/img/journals/' | append: paper.cover | append: '-100.webp' | relative_url }} 1x,
+                {{ '/assets/img/journals/' | append: paper.cover | append: '-200.webp' | relative_url }} 2x
+            "
             alt="{{ paper.journal }} cover"
             width="100"
             loading="lazy"
-          >
+            >
         {%- else -%}
           <div class="pub-thumb-placeholder" aria-hidden="true">
             {{ paper.journal | split: ' ' | first }}
@@ -57,7 +61,7 @@ See <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_
         {%- endif -%}
         {%- if paper.misclinks -%}
             {%- for link in paper.misclinks -%}
-            {% unless first_link %}<span class="sep">・</span>{% endunless %}
+            {%- unless first_link -%}<span class="sep">・</span>{%- endunless -%}
             <a href="{{ link.url }}">{{ link.name }}</a>
             {%- assign first_link = false -%}
             {%- endfor -%}
