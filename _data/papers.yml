@@ -5,6 +5,7 @@
   pdf: "https://mino-osawa.github.io/notes/draft/AMOT.pdf"
   state: "to appear"
   cover: "jue"
+  author: "T. Akamatsu, T. Mori, M. Osawa, Y. Takayama"
   coauthors:
     - "Takashi Akamatsu"
     - "Tomoya Mori"
@@ -19,6 +20,7 @@
 
 - title: "Equilibrium refinement for a model of non-monocentric internal structures of cities: A potential game approach"
   year: 2020
+  author: "M. Osawa, T. Akamatsu"
   journal: "Journal of Economic Theory"
   cover: "jet"
   url: "https://doi.org/10.1016/j.jet.2020.105025"
@@ -28,6 +30,7 @@
 
 - title: "Harris and Wilson (1978) model revisited: The spatial period-doubling bifurcation in an urban retail model"
   year: 2016
+  author: "M. Osawa, T. Akamatsu, Y. Takayama"
   journal: "Journal of Regional Science"
   cover: "jrs"
   url: "https://doi.org/10.1111/jors.12306"
@@ -38,6 +41,7 @@
 
 - title: "First-best dynamic assignment of commuters with endogenous heterogeneities in a corridor network"
   year: 2018
+  author: "M. Osawa, H. Fu, T. Akamatsu"
   journal: "Transportation Research Part B: Methodological"
   cover: "tr-b"
   url: "https://doi.org/10.1016/j.trb.2017.09.003"
@@ -48,6 +52,7 @@
 
 - title: "Perturbed cusp catastrophe in a population game: Spatial economics with locational asymmetries"
   year: 2022
+  author: "K. Ikeda, Y. Takayama, J. M. Gaspar, M. Osawa"
   journal: "Journal of Regional Science"
   cover: "jrs"
   url: "https://doi.org/10.1111/jors.12582"
@@ -59,6 +64,7 @@
 
 - title: "Breaking and sustaining bifurcations in <i>S<sub>N</sub></i>-invariant equidistant economy"
   year: 2021
+  author: "H. Aizawa, K. Ikeda, M. Osawa, and J. M. Gaspar"
   journal: "International Journal of Bifurcation and Chaos"
   cover: "ijbc"
   url: "https://doi.org/10.1142/S0218127420502405"
@@ -70,6 +76,7 @@
 
 - title: "Model-based analysis on social acceptability and feasibility of a focused protection strategy against the COVID-19 pandemic"
   year: 2021
+  author: "T. Akamatsu, T. Nagae, M. Osawa, K. Satsukawa, T. Sakai, D. Mizutani"
   journal: "Scientific Reports"
   cover: "scirep"
   url: "https://doi.org/10.1038/s41598-021-81630-9"
@@ -83,6 +90,7 @@
 
 - title: "Time evolution of city distributions in Germany: Group-theoretic spectrum analysis"
   year: 2022
+  author: "K. Ikeda, M. Osawa, Y. Takayama"
   journal: "Networks and Spatial Economics"
   cover: "nets"
   url: "https://doi.org/10.1007/s11067-021-09557-2"
@@ -93,6 +101,7 @@
 
 - title: "Spatio-temporal analysis of gasoline shortages in the Tohoku region after the Great East Japan Earthquake"
   year: 2013
+  author: "T. Akamatsu, M. Osawa, T. Nagae, H. Yamaguchi"
   journal: "Journal of JSCE"
   cover: "jsce"
   url: "https://doi.org/10.2208/journalofjsce.1.1_447"
