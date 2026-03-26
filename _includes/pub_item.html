@@ -1,9 +1,9 @@
-      <div class="pub-thumb">
+  <div class="pub-thumb">
         {%- if paper.cover -%}
           <img
             src="{{ '/assets/img/journals/' | append: paper.cover | append: '-90.webp' | relative_url }}"
             srcset="{{ '/assets/img/journals/' | append: paper.cover | append: '-90.webp' | relative_url }} 1x, {{ '/assets/img/journals/' | append: paper.cover | append: '-180.webp' | relative_url }} 2x" 
-            alt="{{ paper.journal }} cover"
+            alt="{{ paper.journal }} cover image"
             width="90"
             loading="lazy"
             >
@@ -22,14 +22,13 @@
           {%- endif -%}
         </div>
         <div class="pub-authors">{{ paper.author}}</div>
-        <div class="pub-venue">
-          <span class="pub-journal">{{ paper.journal }}</span>
-          {%- if paper.state -%}, {{ paper.state }}{% endif %}
-          {%- if paper.year -%}, {{ paper.year }}{% endif %}
+        <div class="pub-venue"><span class="pub-journal">{{ paper.journal }}</span>
+          {%- if paper.state -%}, {{ paper.state }}{%- endif -%}
+          {%- if paper.year -%}, {{ paper.year }}{%- endif -%}
         </div>
         {% if paper.pdf or paper.misclinks %}
         <div class="pub-links">
-        {% assign first_link = true %}
+        {%- assign first_link = true -%}
         {%- if paper.pdf -%}
             <a href="{{ paper.pdf }}">PDF</a>
             {%- assign first_link = false -%}
@@ -40,7 +39,7 @@
             <a href="{{ link.url }}">{{ link.name }}</a>
             {%- assign first_link = false -%}
             {%- endfor -%}
-        {% endif %}
+        {%- endif -%}
         </div>
         {% endif %}
       </div>

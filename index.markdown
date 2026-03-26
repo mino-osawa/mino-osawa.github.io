@@ -18,7 +18,7 @@ See <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_
 <ul class="ref-list pub-list">
   {% for paper in site.data.papers %}
     <li class="pub-item">
-      {% include pub_item.html paper=paper %}
+    {% include pub_item.html paper=paper %}
     </li>
   {% endfor %}
 </ul>
