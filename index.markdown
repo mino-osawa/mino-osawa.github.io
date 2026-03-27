@@ -18,12 +18,8 @@ Please see <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" ta
 <ul class="ref-list">
   {% for paper in site.data.papers %}
   {% if paper.keypub %}
-    <li>
-      {% if paper.url %}<a href="{{ paper.url }}" class="paper-title">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}. <br>
-      <span class="pub-journal">{{ paper.journal }}</span>{% if paper.state %}, {{paper.state}}.{% endif %} ({{ paper.year }}) 
-      {% if paper.pdf %}[<a href="{{ paper.pdf }}">paper</a>]{% endif %}{% if paper.misclinks %}{% for link in paper.misclinks %}
-      [<a href="{{ link.url }}">{{ link.name }}</a>]{% endfor %}{% endif %}{% if paper.coauthors %} <br>
-      (with {{ paper.coauthors | join: ', ' }}){% endif %}
+    <li class="pub-item">
+    {% include pub_item.html paper=paper %}
     </li>
   {% endif %}
   {% endfor %}
