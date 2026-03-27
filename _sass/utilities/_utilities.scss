@@ -12,17 +12,20 @@
   display: none;
 }
 
+
+.duration {
+  font-weight:bold;
+  color: $color-sumi; 
+}
+
 .red-like {
-  color: $color-akabeni;
+    font-weight: bold; 
+    color: $color-tetsukon; 
 }
 
 .note,
 .note a {
   color: #777;
-}
-
-.duration {
-  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
