@@ -45,7 +45,6 @@
     font-family: "Computer Modern Serif", serif;
     font-size: 1.5em; 
     font-weight: bold;
-    color: $color-koinezu; 
 
     @include respond-max($bp-tablet) {
       text-align: center;
@@ -71,17 +70,14 @@
 .info {
   list-style: none;
   padding-left: 0rem;
-  line-height: 1.8;
+  line-height: 2;
 
-  a {
-    color: black !important; 
-    text-decoration: none;
+//   a {
 
-    &:hover {
-        color: $color-konpeki !important; 
-        text-decoration: underline; 
-    }
-  }
+//     &:hover {
+//         text-decoration: underline; 
+//     }
+//   }
 
   .em-button {
     padding: 0 .2rem;

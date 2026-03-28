@@ -5,9 +5,9 @@ permalink: /posts/
 ---
 
 <div class="posts-container">
-<h1 class="posts-header">Posts</h1>
+<h1 class="posts-header">雑記帳</h1>
 
-<div class="posts-description">雑感です．<a href="/policies/#disclaimer">免責事項</a></div>
+<div class="posts-description">日記などです．<a href="/policies/#disclaimer">免責事項</a></div>
 
 <!-- 記事がもし増えてきたら追加する．
 {% for category in site.categories %}

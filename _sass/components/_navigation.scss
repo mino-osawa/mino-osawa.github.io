@@ -10,6 +10,7 @@
 .site-nav {
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   border-top: 4px solid $color-yamabatoiro;
+  margin: 0 0 $section-gap;
 
   a {
     text-decoration: none;
@@ -60,25 +61,39 @@
   }
 
   @include respond-max($bp-mobile) {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: $color-kokihanada;
+    border: none;
+    margin-bottom: 1.2rem; 
+
     .nav-container {
-      padding: 0.8rem $gutter-mobile 0.5rem;
+      padding: 0.5rem $gutter-mobile 0.4rem;
       align-items: flex-start;
-      background-color: $color-surface-alt;
       border-bottom: 1px solid $color-border;
     }
 
     .site-title,
     ul li {
-      font-size: 1.1rem;
+      font-size: $Base;
+      a {
+        color: white !important; 
+
+        &.active {
+            color: white; 
+        }
+      }
     }
 
     ul {
-      display: block;
-      text-align: left;
+    //   display: block;
+    //   text-align: left;
 
       li {
-        display: block;
-        margin-bottom: 0.3em;
+        // display: block;
+        // margin-bottom: 0.3em;
+        margin-left: .8rem; 
 
         + li::before {
           content: none;
@@ -92,7 +107,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 $section-gap;
   padding: 0.83em $gutter-desktop;
 }
 
