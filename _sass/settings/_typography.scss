@@ -1,4 +1,7 @@
-$FSize-2: clamp(0.8rem, calc(0.7rem + 0.3vw), 0.9rem);
-$FSize-1: clamp(0.9rem, calc(0.8rem + 0.4vw), 1rem);
-$Base:    clamp(1rem, calc(0.9rem + 0.5vw), 1.125rem);
-$FSize-3: clamp(1.125rem, calc(1rem + 0.6vw), 1.25rem);
+$FSize-2: clamp(0.78rem, calc(0.68rem + 0.25vw), 0.88rem);
+$FSize-1: clamp(0.88rem, calc(0.78rem + 0.35vw), 0.98rem);
+$Base:    clamp(0.98rem, calc(0.88rem + 0.45vw), 1.1rem);
+$FSize-3: clamp(1.08rem, calc(0.98rem + 0.55vw), 1.22rem);
+
+$FSize-H2: clamp(1.35rem, calc(1.15rem + 0.9vw), 1.5rem);
+$FSize-H3: clamp(1.22rem, calc(1.08rem + 0.7vw), 1.35rem);
