@@ -1,10 +1,10 @@
 /* === プロフィール === */
 #profile {
   display: flex;
-  gap: 2em;
+  gap: 1.5rem;
   align-items: flex-start;
   justify-content: flex-start;
-  margin: 1em 0 2em 0;
+  margin: 1rem 0 2rem 0;
 
   @include respond-max($bp-tablet) {
     flex-direction: column;
@@ -15,7 +15,6 @@
 
 #profile_pic-wrapper {
   flex-shrink: 0;
-
   @include respond-max($bp-tablet) {
     text-align: center;
     margin-bottom: 1em;
@@ -23,14 +22,14 @@
 }
 
 #profile_pic {
-  width: 18rem;
+  width: 15.5rem;
   max-width: 100%;
   height: auto;
   display: block;
   border: 1px solid $color-border;
 
   @include respond-max($bp-tablet) {
-    width: clamp(13rem, calc(10.857rem + 10.71vw), 18rem);
+    width: clamp(11.5rem, calc(9.786rem + 8.57vw), 15.5rem);
     height: auto;
   }
 }
@@ -44,11 +43,17 @@
     line-height: 1;
     margin-bottom: 0.5em;
     font-family: "Computer Modern Serif", serif;
+    font-size: 1.5em; 
     font-weight: bold;
+    color: $color-koinezu; 
 
     @include respond-max($bp-tablet) {
       text-align: center;
     }
+  }
+
+  p {
+    line-height: 1.6;
   }
 
   @include respond-max($bp-tablet) {

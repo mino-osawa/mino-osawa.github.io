@@ -4,10 +4,10 @@ $bp-publications: 980px;
 $bp-pub-compact: 560px;
 $bp-wide: 1500px;
 
-$page-max-width: 94rem;
-$posts-max-width: 48rem;
-$content-max-width: 44rem;
-$profile-max-width: 800px;
+$page-max-width: 88rem;     // 94 → 88
+$posts-max-width: 44rem;    // 48 → 44
+$content-max-width: 40rem;  // 44 → 40
+$profile-max-width: 560px;  // 600 → 560
 
 $gutter-desktop: 2.5rem;
 $gutter-mobile: 1rem;

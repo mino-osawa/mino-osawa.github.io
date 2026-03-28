@@ -7,7 +7,8 @@ title: M.Osawa's Website
 
 <section class="top-block">
 <h2>Research</h2>
-<a href="/summary/">About my research</a>. 
+
+<a href="/summary/">Research summary</a> 
 
 <h3>Publications</h3>
 <ul class="ref-list">

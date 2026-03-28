@@ -1,4 +1,4 @@
-    <li>
+    <li class="pub-item">
         {%- if paper.url -%}
             <a href="{{ paper.url }}" class="paper-title">{{ paper.title }}</a>
         {%- else -%}
@@ -18,6 +18,6 @@
         {%- endif -%}
         {%- if paper.coauthors -%}
             <br>
-            (with {{ paper.coauthors | join: ', ' }})
+            <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span>
         {%- endif -%}
     </li>
