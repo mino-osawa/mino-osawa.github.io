@@ -11,27 +11,12 @@ title: M.Osawa's Website
 
 <a href="/summary/">About my research</a>. 
 
-<h3>Featured Works</h3>
-
-Please see <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_blank">Google Scholar</a> for a chronological list. 
-
-<ul class="ref-list">
-  {% for paper in site.data.papers %}
-  {% if paper.keypub %}
-    <li class="pub-item">
-    {% include pub_item.html paper=paper %}
-    </li>
-  {% endif %}
-  {% endfor %}
-</ul>
-
 <h3>All Publications</h3>
 
 Please see <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" target="_blank">Google Scholar</a> for a chronological list. 
 
 <ul class="ref-list">
   {% for paper in site.data.papers %}
-  {% unless paper.keypub %}
     <li>
       {% if paper.url %}<a href="{{ paper.url }}" class="paper-title">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}. <br>
       <span class="pub-journal">{{ paper.journal }}</span>{% if paper.state %}, {{paper.state}}.{% endif %} ({{ paper.year }}) 
@@ -39,7 +24,6 @@ Please see <a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ" ta
       [<a href="{{ link.url }}">{{ link.name }}</a>]{% endfor %}{% endif %}{% if paper.coauthors %} <br>
       (with {{ paper.coauthors | join: ', ' }}){% endif %}
     </li>
-  {% endunless %}
   {% endfor %}
 </ul>
 
