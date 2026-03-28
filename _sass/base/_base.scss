@@ -1,6 +1,6 @@
 /* === ベーススタイル === */
 html { 
-    scrollbar-gutter: stable; 
+  scrollbar-gutter: stable; 
 }
 
 html,
@@ -51,6 +51,12 @@ h3 {
     margin-bottom: 0.8em;
     
     a {
+      text-underline-offset: 2px;
+      text-decoration-color: $color-border-strong;
+
+      &:hover {
+        text-decoration-color: $color-konpeki;
+      }
         text-decoration: none;
         
         &:hover {
@@ -67,7 +73,7 @@ h3 {
 }
 
 ul, ol {
-    padding-left: 1.5em;
+  padding-left: 1.5em;
 }
 
 ol li a {
@@ -82,7 +88,7 @@ hr {
 }
 
 a {
-  color: #000;
+  color: $color-text-strong;
   font-weight: 500;
 
   &[href*="pdf/"],

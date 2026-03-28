@@ -86,7 +86,6 @@ permalink: "/teaching/"
 
 <hr>
 
-
 <h2>Notes</h2>
 <ul class="last_list">
 <li><a href="/notes/N2412_logit.pdf">Logit Choice and Perturbed Optimization</a>, <a href="https://mino-osawa.github.io/rum/2025/05/29/post.html">日本語解説</a></li>

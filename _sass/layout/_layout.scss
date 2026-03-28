@@ -3,43 +3,45 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #fff;
-  max-width: 94rem;
+  background-color: $color-surface;
+  max-width: $page-max-width;
   margin: 0 auto;
 }
 
 .page-content {
   flex: 1;
-  padding: 0 2.5rem 2em 2.5rem;
+  padding: 0 $gutter-desktop $section-gap;
 
-  @media (max-width: 600px) {
-    padding: 0 1rem;
+  @include respond-max($bp-mobile) {
+    padding: 0 $gutter-mobile;
   }
 
-  @media (max-width: 768px) {
-      max-width: 44rem;
-      font-size: $FSize-1;
-      
-      br { display: none; }
+  @include respond-max($bp-tablet) {
+    max-width: $content-max-width;
+    font-size: $FSize-1;
+
+    br {
+      display: none;
+    }
   }
 }
 
-@media (min-width: 1500px) {
-    html {
-        background: linear-gradient(
-            to right,
-            #f5f5f5,
-            #fafafa 40%,
-            #fafafa 60%,
-            #f5f5f5
-        );
-    }
+@include respond-min($bp-wide) {
+  html {
+    background: linear-gradient(
+      to right,
+      $color-surface-muted,
+      $color-surface-subtle 40%,
+      $color-surface-subtle 60%,
+      $color-surface-muted
+    );
+  }
 
   .page-wrapper {
     margin: 0 auto;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    box-shadow: 0px 0px 5px #aaa;
+    border-left: 1px solid $color-border;
+    border-right: 1px solid $color-border;
+    box-shadow: 0 0 5px $color-border-shadow;
   }
 }
 

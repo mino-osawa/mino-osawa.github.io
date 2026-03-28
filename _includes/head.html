@@ -3,11 +3,11 @@
 <meta name="author" content="{{ site.author }}">
 <meta name="description" lang="en" content="{{ site.description }}">
 <title>
-{% if page.layout == "post" %}
+{%- if page.layout == "post" -%}
     {{ page.date | date: "%Y-%m-%d" }}: {% if page.running_head %}{{ page.running_head }}{% else %}雑記{% endif %}
-{% else %}
+{%- else -%}
     {{ page.title }}
-{% endif %}
+{%- endif -%}
 </title>
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}">
