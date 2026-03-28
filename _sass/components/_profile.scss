@@ -70,9 +70,11 @@
 
   a {
     color: black !important; 
+    text-decoration: none;
 
     &:hover {
         color: $color-konpeki !important; 
+        text-decoration: underline; 
     }
   }
 
