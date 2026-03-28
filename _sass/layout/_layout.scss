@@ -45,12 +45,12 @@
   }
 }
 
-// teaching 
-
-.course, .notes {
+.top-block, .course, .notes {
     border-top: 1px solid #ddd; 
     padding: 1.5rem 0 1.5rem;
+} 
 
+.course, .notes {
     ul {
         margin: 0; 
     }

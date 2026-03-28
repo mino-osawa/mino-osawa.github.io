@@ -81,7 +81,7 @@
   .em-button {
     padding: 0 .2rem;
     width: 3.5rem;
-    font-size: $FSize-1; 
+    font-size: $FSize-2; 
     text-align:center;
     background: $color-surface;
     border-radius: .1rem;
@@ -90,7 +90,7 @@
     font-family: "Computer Modern Sans Serif", sans-serif; 
 
     &:hover {
-      background: #fcfcfc; 
+      background: $color-unohanairo; 
       color: $color-konpeki;
       border: 1px solid $color-konpeki;
     }
