@@ -3,6 +3,7 @@
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   border-top: 4px solid $color-kokihanada;
   margin: 0 0 $section-gap;
+  font-size: $FSize-H2; 
 
   a {
     text-decoration: none;
@@ -34,7 +35,6 @@
     li {
       display: inline-block;
       vertical-align: baseline;
-      font-size: 1.2rem;
 
       + li::before {
         content: "\30FB";
@@ -63,7 +63,7 @@
     .nav-container {
       padding: 0.5rem $gutter-mobile 0.4rem;
       align-items: flex-start;
-      border-bottom: 1px solid $color-border;
+      border-bottom: 1px solid $color-konjou;
     }
 
     .site-title,
@@ -71,10 +71,11 @@
       font-size: $Base;
 
       a {
-        color: $color-shironeri !important; 
+        color: $color-kinunezu !important; 
+        text-shadow: 0px 0px 2px black; 
 
         &.active {
-            color: white; 
+            color: white !important; 
         }
       }
     }
@@ -100,15 +101,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.83em $gutter-desktop;
-}
-
-.site-title {
-  font-size: 1.5em;
-}
-
-br.wide {
-  @include respond-max($bp-mobile) {
-    display: none;
-  }
+  padding: 0.83rem $gutter-desktop 0.5rem;
 }

@@ -27,7 +27,7 @@
         margin-top: 1rem; 
     }
 
-    br {
+    br:not(.on-mobile) {
         display: none; 
     }
   }

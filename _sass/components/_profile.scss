@@ -29,7 +29,7 @@
   border: 1px solid $color-border;
 
   @include respond-max($bp-tablet) {
-    width: clamp(11.5rem, calc(9.786rem + 8.57vw), 15.5rem);
+    width: clamp(14.0625rem, calc(12.35rem + 8.57vw), 18.0625rem);
     height: auto;
   }
 }
@@ -79,13 +79,6 @@
   list-style: none;
   padding-left: 0rem;
   line-height: 2;
-
-//   a {
-
-//     &:hover {
-//         text-decoration: underline; 
-//     }
-//   }
 
   .em-button {
     padding: 0 .2rem;

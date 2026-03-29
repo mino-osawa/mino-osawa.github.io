@@ -110,7 +110,7 @@ permalink: "/teaching/"
 <section class="notes">
 
   <header class="course-header">
-    <h2 class="jp">交通経済学</h2>
+    <h2 class="jp">その他</h2>
     <div class="en">Other Materials</div>
   </header>
 
