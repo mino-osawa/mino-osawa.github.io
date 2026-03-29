@@ -8,7 +8,7 @@ title: M.Osawa's Website
 <section class="top-block">
 <h2>Research</h2>
 
-<a href="/summary/">Research summary</a> 
+<p class="mobile-center"><a href="/summary/">Research summary</a></p>
 
 <h3>Publications</h3>
 <ul class="ref-list">

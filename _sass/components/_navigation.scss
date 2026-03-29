@@ -1,15 +1,7 @@
 /* === ナビゲーション === */
-#cv-link {
-    color: $color-link-muted; 
-
-    &:hover {
-      color: $color-konpeki;
-    }
-}
-
 .site-nav {
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
-  border-top: 4px solid $color-yamabatoiro;
+  border-top: 4px solid $color-kokihanada;
   margin: 0 0 $section-gap;
 
   a {
@@ -66,7 +58,7 @@
     z-index: 1000;
     background-color: $color-kokihanada;
     border: none;
-    margin-bottom: 1.2rem; 
+    margin: 0;
 
     .nav-container {
       padding: 0.5rem $gutter-mobile 0.4rem;
@@ -77,8 +69,9 @@
     .site-title,
     ul li {
       font-size: $Base;
+
       a {
-        color: white !important; 
+        color: $color-shironeri !important; 
 
         &.active {
             color: white; 

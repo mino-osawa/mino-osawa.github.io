@@ -1,5 +1,11 @@
 /* === List Publications === */
+.pub-coauthors {
+    color: $color-text-soft; 
+}
 
+.pub-journal {
+  color: $color-aisumicha;
+}
 
 
 /* === Card Publications === */
@@ -89,10 +95,6 @@
 .pub-authors {
   margin: 0.3rem 0 0;
   line-height: 1.3;
-}
-
-.pub-coauthors {
-    color: $color-text-soft; 
 }
 
 .pub-venue,

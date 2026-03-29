@@ -10,7 +10,7 @@ $content-max-width: 40rem;
 $profile-max-width: 560px;
 
 $gutter-desktop: 2.5rem;
-$gutter-mobile: 1rem;
+$gutter-mobile: .9rem;
 $section-gap: 2em;
 
 $color-text: #111;
@@ -18,6 +18,8 @@ $color-text-strong: #000;
 $color-text-muted: #555;
 $color-text-soft: #777;
 $color-link-muted: #999;
+$color-link-strong: $color-konpeki; 
+$color-link-hover: $color-konpeki; 
 
 $color-border: #ddd;
 $color-border-strong: #ccc;

@@ -109,14 +109,19 @@ permalink: "/teaching/"
 
 <section class="notes">
 
-  <h2>Notes</h2>
+  <header class="course-header">
+    <h2 class="jp">交通経済学</h2>
+    <div class="en">Other Materials</div>
+  </header>
 
-  <ul class="last_list">
+  <div class="course-contents">
+  <ul>
     <li>2024.12: 
       <a href="/notes/misc/N2412_logit.pdf">Logit Choice and Perturbed Optimization</a>,
       <a href="https://mino-osawa.github.io/rum/2025/05/29/post.html">日本語版</a>
     </li>
     <li>2026.01: <a href="/notes/misc/SciTo_260126_SpatialModels.pdf">東京科学大学 CVE.D406『都市経済分析』</a> 話題提供資料</li>
   </ul>
+  </div>
 
 </section>

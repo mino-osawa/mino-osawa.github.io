@@ -51,12 +51,12 @@ h3 {
       text-decoration-color: $color-border-strong;
 
       &:hover {
-        text-decoration-color: $color-konpeki;
+        text-decoration-color: $color-link-strong;
       }
         text-decoration: none;
         
         &:hover {
-            text-decoration-color: $color-konpeki;
+            text-decoration-color: $color-link-strong;
             text-underline-offset: 2px; 
             text-decoration: underline;
         }
@@ -76,6 +76,15 @@ h3 {
 
 ul, ol {
   padding-left: 1.5em;
+
+  li {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+
+    a {
+        white-space: normal;
+    }
+  }
 }
 
 ol li a {
@@ -96,16 +105,16 @@ a {
   &[href*="pdf/"],
   &[href*="drive.google.com"],
   &[href*="draft/"] {
-    color: $color-konpeki;
+    color: $color-link-strong;
     font-weight: bold;
   }
 
   &[href$=".pdf"]:not(.ref-list a[href$=".pdf"]) {
-    color: $color-konpeki;
+    color: $color-link-strong;
   }
 
   &:hover {
-    color: $color-konpeki; 
+    color: $color-link-hover; 
   }
 }
 

@@ -67,6 +67,14 @@
   vertical-align: middle;
 }
 
+#cv-link {
+    color: inherit; 
+
+    &:hover {
+        color: $color-link-hover; 
+    }
+}
+
 .info {
   list-style: none;
   padding-left: 0rem;

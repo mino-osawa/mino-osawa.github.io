@@ -13,15 +13,32 @@
   padding: 0 $gutter-desktop $section-gap;
 
   @include respond-max($bp-mobile) {
-    padding: 0 $gutter-mobile;
+    padding: 1rem $gutter-mobile;
+
+    .top-block {
+        padding-top: 1.2rem; 
+    }
+
+    #profile {
+        margin-bottom: 1rem; 
+    }
+
+    h3 {
+        margin-top: 1rem; 
+    }
+
+    br {
+        display: none; 
+    }
   }
 
   @include respond-max($bp-tablet) {
+    margin: 0 auto; 
     max-width: $content-max-width;
     font-size: $FSize-1;
 
-    br {
-      display: none;
+    h1, h2, h3, .mobile-center {
+        text-align: center; 
     }
   }
 }
@@ -68,9 +85,9 @@
 }
 
 .course-header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-start;
 
   .jp {
     margin: 0;
@@ -78,15 +95,30 @@
 
   .en {
     font-size: $FSize-3;
-    color: #333;
+    color: $color-text-muted;
     font-family: "Computer Modern Typewriter", sans-serif;
   }
+
+   @include respond-max($bp-tablet) {
+        text-align: center;
+        background: $color-surface-soft;
+        box-shadow: inset 0px 0px 3px $color-nibiiro; 
+        padding: .5rem; 
+   }
 }
 
 .course-info {
-  margin: 0.83em 0 0 0;
+  margin: 0.5rem 0 0 0;
 }
 
-.course-contents ol {
-    margin: .2rem 0 0 .5rem; 
+.course-contents {
+    padding: .5rem 0;
+
+    h3 {
+        margin: .3rem 0 0; 
+    }
+    
+    ol {
+        margin: .2rem 0 0 .5rem; 
+    }
 }
