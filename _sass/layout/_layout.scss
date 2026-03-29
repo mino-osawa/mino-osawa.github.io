@@ -82,19 +82,20 @@
         font-size: $Base; 
         margin: .8rem 0 0;
     }
+
+   @include respond-max($bp-mobile) {
+        border-top: none; 
+        padding: .5rem 0 1rem;
+   }
 }
 
 .course-header {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: flex-start;
-
   .jp {
     margin: 0;
   }
 
   .en {
-    font-size: $FSize-3;
+    font-size: $Base;
     color: $color-text-muted;
     font-family: "Computer Modern Typewriter", sans-serif;
   }
@@ -102,8 +103,12 @@
    @include respond-max($bp-tablet) {
         text-align: center;
         background: $color-surface-soft;
-        box-shadow: inset 0px 0px 3px $color-nibiiro; 
+        box-shadow: inset 0px 0px 2px $color-nibiiro; 
         padding: .5rem; 
+
+        .jp {
+            font-size: $FSize-H3;
+        }
    }
 }
 

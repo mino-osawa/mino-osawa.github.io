@@ -21,7 +21,7 @@
     options: {
         renderActions: {
             wrapDisplay: [200, (doc) => {
-                const displayMath = document.querySelectorAll('mjx-math[display="true"]');
+                const displayMath = document.querySelectorAll('mjx-container[display="true"]');
                 displayMath.forEach(el => {
                 const wrapper = document.createElement('div');
                 wrapper.className = 'math-scroll';

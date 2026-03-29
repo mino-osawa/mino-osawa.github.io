@@ -3,7 +3,7 @@ layout: "default"
 title: "M.Osawa - Teaching"
 permalink: "/teaching/"
 ---
-<h1>講義資料など</h1>
+<h1>Teaching</h1>
 
 <div class="teaching-meta">
   <p>
